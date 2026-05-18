@@ -1,0 +1,20 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Tue Jan 13 09:57:44 2026
+# Process ID: 10236
+# Current directory: C:/Users/a/Desktop/USB/FPGA/ZYNQ_MINI_New/03_Sample_Projects/7010/ARM/arm_13_lwip
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5592 C:\Users\a\Desktop\USB\FPGA\ZYNQ_MINI_New\03_Sample_Projects\7010\ARM\arm_13_lwip\arm_13_lwip.xpr
+# Log file: C:/Users/a/Desktop/USB/FPGA/ZYNQ_MINI_New/03_Sample_Projects/7010/ARM/arm_13_lwip/vivado.log
+# Journal file: C:/Users/a/Desktop/USB/FPGA/ZYNQ_MINI_New/03_Sample_Projects/7010/ARM/arm_13_lwip\vivado.jou
+# Running On: RnD-SHERALI, OS: Windows, CPU Frequency: 2112 MHz, CPU Physical cores: 12, Host memory: 34125 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/a/Desktop/USB/FPGA/ZYNQ_MINI_New/03_Sample_Projects/7010/ARM/arm_13_lwip/arm_13_lwip.xpr
+update_compile_order -fileset sources_1
+open_bd_design {C:/Users/a/Desktop/USB/FPGA/ZYNQ_MINI_New/03_Sample_Projects/7010/ARM/arm_13_lwip/arm_13_lwip.srcs/sources_1/bd/design_1/design_1.bd}
+set_property screensize {293 294} [get_bd_cells processing_system7_0]
+set_property screensize {216 162} [get_bd_cells processing_system7_0]
+write_hw_platform -fixed -include_bit -force -file C:/Users/a/Desktop/USB/FPGA/ZYNQ_MINI_New/03_Sample_Projects/7010/ARM/arm_13_lwip/design_1_wrapper.xsa

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# 
+# Start of session at: Tue Oct 11 21:30:24 2022
+# Process ID: 9616
+# Current directory: C:/Users/Administrator/Desktop/arm_13_lwip/arm_13_lwip.sdk/webtalk
+# Command line: wbtcv.exe -mode batch -source sdk_webtalk.tcl
+# Log file: C:/Users/Administrator/Desktop/arm_13_lwip/arm_13_lwip.sdk/webtalk/webtalk.log
+# Journal file: C:/Users/Administrator/Desktop/arm_13_lwip/arm_13_lwip.sdk/webtalk\webtalk.jou
+#-----------------------------------------------------------
+source sdk_webtalk.tcl

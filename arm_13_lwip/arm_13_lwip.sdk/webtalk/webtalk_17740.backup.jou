@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# 
+# Start of session at: Thu Jul 16 20:40:05 2020
+# Process ID: 17740
+# Current directory: C:/Users/Administrator/Desktop/zynq_lwip_demo/zynq_lwip_demo.sdk/webtalk
+# Command line: wbtcv.exe -mode batch -source sdk_webtalk.tcl
+# Log file: C:/Users/Administrator/Desktop/zynq_lwip_demo/zynq_lwip_demo.sdk/webtalk/webtalk.log
+# Journal file: C:/Users/Administrator/Desktop/zynq_lwip_demo/zynq_lwip_demo.sdk/webtalk\webtalk.jou
+#-----------------------------------------------------------
+source sdk_webtalk.tcl

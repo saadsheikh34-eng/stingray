@@ -1,0 +1,481 @@
+11:00:21 DEBUG : Logs will be stored at 'C:/Users/a/Desktop/USB/FPGA/ZYNQ_MINI_New/03_Sample_Projects/7010/ARM/arm_13_lwip/IDE.log'.
+11:00:25 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\a\Desktop\USB\FPGA\ZYNQ_MINI_New\03_Sample_Projects\7010\ARM\arm_13_lwip\temp_xsdb_launch_script.tcl
+11:00:25 INFO  : Registering command handlers for Vitis TCF services
+11:00:25 INFO  : Platform repository initialization has completed.
+11:00:27 INFO  : XSCT server has started successfully.
+11:00:27 INFO  : plnx-install-location is set to ''
+11:00:27 INFO  : Successfully done setting XSCT server connection channel  
+11:00:27 INFO  : Successfully done query RDI_DATADIR 
+11:00:27 INFO  : Successfully done setting workspace for the tool. 
+11:02:22 DEBUG : Logs will be stored at 'C:/Users/a/Desktop/USB/FPGA/ZYNQ_MINI_New/03_Sample_Projects/7010/ARM/arm_13_lwip/IDE.log'.
+11:02:23 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\a\Desktop\USB\FPGA\ZYNQ_MINI_New\03_Sample_Projects\7010\ARM\arm_13_lwip\temp_xsdb_launch_script.tcl
+11:02:25 INFO  : XSCT server has started successfully.
+11:02:25 INFO  : plnx-install-location is set to ''
+11:02:25 INFO  : Successfully done setting XSCT server connection channel  
+11:02:25 INFO  : Successfully done setting workspace for the tool. 
+11:02:26 INFO  : Platform repository initialization has completed.
+11:02:26 INFO  : Successfully done query RDI_DATADIR 
+11:02:26 INFO  : Registering command handlers for Vitis TCF services
+11:30:50 DEBUG : Logs will be stored at 'C:/Users/a/Desktop/USB/FPGA/ZYNQ_MINI_New/03_Sample_Projects/7010/ARM/arm_13_lwip/IDE.log'.
+11:30:51 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\a\Desktop\USB\FPGA\ZYNQ_MINI_New\03_Sample_Projects\7010\ARM\arm_13_lwip\temp_xsdb_launch_script.tcl
+11:30:53 INFO  : XSCT server has started successfully.
+11:30:53 INFO  : plnx-install-location is set to ''
+11:30:53 INFO  : Successfully done setting XSCT server connection channel  
+11:30:53 INFO  : Successfully done setting workspace for the tool. 
+11:30:54 INFO  : Platform repository initialization has completed.
+11:31:00 INFO  : Registering command handlers for Vitis TCF services
+11:31:00 INFO  : Successfully done query RDI_DATADIR 
+14:05:34 DEBUG : Logs will be stored at 'C:/Users/a/Desktop/USB/FPGA/ZYNQ_MINI_New/03_Sample_Projects/7010/ARM/arm_13_lwip/IDE.log'.
+14:05:35 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\a\Desktop\USB\FPGA\ZYNQ_MINI_New\03_Sample_Projects\7010\ARM\arm_13_lwip\temp_xsdb_launch_script.tcl
+14:05:37 INFO  : XSCT server has started successfully.
+14:05:37 INFO  : Successfully done setting XSCT server connection channel  
+14:05:37 INFO  : plnx-install-location is set to ''
+14:05:37 INFO  : Successfully done setting workspace for the tool. 
+14:05:40 INFO  : Platform repository initialization has completed.
+14:05:42 INFO  : Registering command handlers for Vitis TCF services
+14:05:43 INFO  : Successfully done query RDI_DATADIR 
+14:47:25 DEBUG : Logs will be stored at 'C:/Users/a/Desktop/USB/FPGA/ZYNQ_MINI_New/03_Sample_Projects/7010/ARM/arm_13_lwip/IDE.log'.
+14:47:26 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\a\Desktop\USB\FPGA\ZYNQ_MINI_New\03_Sample_Projects\7010\ARM\arm_13_lwip\temp_xsdb_launch_script.tcl
+14:47:28 INFO  : XSCT server has started successfully.
+14:47:28 INFO  : plnx-install-location is set to ''
+14:47:28 INFO  : Successfully done setting XSCT server connection channel  
+14:47:28 INFO  : Successfully done setting workspace for the tool. 
+14:47:30 INFO  : Platform repository initialization has completed.
+14:47:31 INFO  : Registering command handlers for Vitis TCF services
+14:47:32 INFO  : Successfully done query RDI_DATADIR 
+14:50:53 INFO  : Result from executing command 'getProjects': ethernet_1
+14:50:53 INFO  : Result from executing command 'getPlatforms': xilinx_vck190_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_202310_1/xilinx_vck190_base_202310_1.xpfm;xilinx_vck190_base_dfx_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_dfx_202310_1/xilinx_vck190_base_dfx_202310_1.xpfm;xilinx_vek280_es1_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vek280_es1_base_202310_1/xilinx_vek280_es1_base_202310_1.xpfm;xilinx_vmk180_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vmk180_base_202310_1/xilinx_vmk180_base_202310_1.xpfm;xilinx_zcu102_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+14:50:54 WARN  : An unexpected exception occurred in the module 'platform project logging'
+14:50:55 INFO  : Platform 'ethernet_1' is added to custom repositories.
+14:51:00 INFO  : Platform 'ethernet_1' is added to custom repositories.
+14:52:42 INFO  : Result from executing command 'getProjects': ethernet_1
+14:52:42 INFO  : Result from executing command 'getPlatforms': ethernet_1|C:/Users/a/Desktop/USB/FPGA/ZYNQ_MINI_New/03_Sample_Projects/7010/ARM/arm_13_lwip/ethernet_1/export/ethernet_1/ethernet_1.xpfm;xilinx_vck190_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_202310_1/xilinx_vck190_base_202310_1.xpfm;xilinx_vck190_base_dfx_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_dfx_202310_1/xilinx_vck190_base_dfx_202310_1.xpfm;xilinx_vek280_es1_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vek280_es1_base_202310_1/xilinx_vek280_es1_base_202310_1.xpfm;xilinx_vmk180_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vmk180_base_202310_1/xilinx_vmk180_base_202310_1.xpfm;xilinx_zcu102_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+14:52:43 INFO  : Checking for BSP changes to sync application flags for project 'ethernetvitis'...
+14:52:58 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:52:58 INFO  : Jtag cable 'Digilent JTAG-SMT2 210251A08870' is selected.
+14:52:58 INFO  : 'jtag frequency' command is executed.
+14:52:58 INFO  : Context for 'APU' is selected.
+14:52:58 INFO  : System reset is completed.
+14:53:01 INFO  : 'after 3000' command is executed.
+14:53:01 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2 210251A08870" && level==0 && jtag_device_ctx=="jsn-JTAG-SMT2-210251A08870-13722093-0"}' command is executed.
+14:53:02 INFO  : Device configured successfully with "C:/Users/a/Desktop/USB/FPGA/ZYNQ_MINI_New/03_Sample_Projects/7010/ARM/arm_13_lwip/ethernetvitis/_ide/bitstream/ethernet.bit"
+14:53:02 INFO  : Context for 'APU' is selected.
+14:53:03 INFO  : Hardware design and registers information is loaded from 'C:/Users/a/Desktop/USB/FPGA/ZYNQ_MINI_New/03_Sample_Projects/7010/ARM/arm_13_lwip/ethernet_1/export/ethernet_1/hw/ethernet.xsa'.
+14:53:03 INFO  : 'configparams force-mem-access 1' command is executed.
+14:53:03 INFO  : Context for 'APU' is selected.
+14:53:03 INFO  : Sourcing of 'C:/Users/a/Desktop/USB/FPGA/ZYNQ_MINI_New/03_Sample_Projects/7010/ARM/arm_13_lwip/ethernetvitis/_ide/psinit/ps7_init.tcl' is done.
+14:53:03 INFO  : 'ps7_init' command is executed.
+14:53:03 INFO  : 'ps7_post_config' command is executed.
+14:53:03 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+14:53:03 INFO  : The application 'C:/Users/a/Desktop/USB/FPGA/ZYNQ_MINI_New/03_Sample_Projects/7010/ARM/arm_13_lwip/ethernetvitis/Debug/ethernetvitis.elf' is downloaded to processor 'ps7_cortexa9_0'.
+14:53:03 INFO  : 'configparams force-mem-access 0' command is executed.
+14:53:03 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2 210251A08870" && level==0 && jtag_device_ctx=="jsn-JTAG-SMT2-210251A08870-13722093-0"}
+fpga -file C:/Users/a/Desktop/USB/FPGA/ZYNQ_MINI_New/03_Sample_Projects/7010/ARM/arm_13_lwip/ethernetvitis/_ide/bitstream/ethernet.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/a/Desktop/USB/FPGA/ZYNQ_MINI_New/03_Sample_Projects/7010/ARM/arm_13_lwip/ethernet_1/export/ethernet_1/hw/ethernet.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/a/Desktop/USB/FPGA/ZYNQ_MINI_New/03_Sample_Projects/7010/ARM/arm_13_lwip/ethernetvitis/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/a/Desktop/USB/FPGA/ZYNQ_MINI_New/03_Sample_Projects/7010/ARM/arm_13_lwip/ethernetvitis/Debug/ethernetvitis.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+14:53:03 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+14:53:03 INFO  : 'con' command is executed.
+14:53:03 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+14:53:03 INFO  : Launch script is exported to file 'C:\Users\a\Desktop\USB\FPGA\ZYNQ_MINI_New\03_Sample_Projects\7010\ARM\arm_13_lwip\ethernetvitis_system\_ide\scripts\systemdebugger_ethernetvitis_system_standalone.tcl'
+14:53:20 INFO  : Checking for BSP changes to sync application flags for project 'ethernetvitis'...
+14:53:33 INFO  : Disconnected from the channel tcfchan#2.
+14:53:34 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:53:35 INFO  : Jtag cable 'Digilent JTAG-SMT2 210251A08870' is selected.
+14:53:35 INFO  : 'jtag frequency' command is executed.
+14:53:35 INFO  : Context for 'APU' is selected.
+14:53:35 INFO  : System reset is completed.
+14:53:38 INFO  : 'after 3000' command is executed.
+14:53:38 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2 210251A08870" && level==0 && jtag_device_ctx=="jsn-JTAG-SMT2-210251A08870-13722093-0"}' command is executed.
+14:53:39 INFO  : Device configured successfully with "C:/Users/a/Desktop/USB/FPGA/ZYNQ_MINI_New/03_Sample_Projects/7010/ARM/arm_13_lwip/ethernetvitis/_ide/bitstream/ethernet.bit"
+14:53:39 INFO  : Context for 'APU' is selected.
+14:53:39 INFO  : Hardware design and registers information is loaded from 'C:/Users/a/Desktop/USB/FPGA/ZYNQ_MINI_New/03_Sample_Projects/7010/ARM/arm_13_lwip/ethernet_1/export/ethernet_1/hw/ethernet.xsa'.
+14:53:39 INFO  : 'configparams force-mem-access 1' command is executed.
+14:53:39 INFO  : Context for 'APU' is selected.
+14:53:39 INFO  : Sourcing of 'C:/Users/a/Desktop/USB/FPGA/ZYNQ_MINI_New/03_Sample_Projects/7010/ARM/arm_13_lwip/ethernetvitis/_ide/psinit/ps7_init.tcl' is done.
+14:53:39 INFO  : 'ps7_init' command is executed.
+14:53:39 INFO  : 'ps7_post_config' command is executed.
+14:53:39 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+14:53:39 INFO  : The application 'C:/Users/a/Desktop/USB/FPGA/ZYNQ_MINI_New/03_Sample_Projects/7010/ARM/arm_13_lwip/ethernetvitis/Debug/ethernetvitis.elf' is downloaded to processor 'ps7_cortexa9_0'.
+14:53:39 INFO  : 'configparams force-mem-access 0' command is executed.
+14:53:39 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2 210251A08870" && level==0 && jtag_device_ctx=="jsn-JTAG-SMT2-210251A08870-13722093-0"}
+fpga -file C:/Users/a/Desktop/USB/FPGA/ZYNQ_MINI_New/03_Sample_Projects/7010/ARM/arm_13_lwip/ethernetvitis/_ide/bitstream/ethernet.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/a/Desktop/USB/FPGA/ZYNQ_MINI_New/03_Sample_Projects/7010/ARM/arm_13_lwip/ethernet_1/export/ethernet_1/hw/ethernet.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/a/Desktop/USB/FPGA/ZYNQ_MINI_New/03_Sample_Projects/7010/ARM/arm_13_lwip/ethernetvitis/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/a/Desktop/USB/FPGA/ZYNQ_MINI_New/03_Sample_Projects/7010/ARM/arm_13_lwip/ethernetvitis/Debug/ethernetvitis.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+14:53:39 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+14:53:39 INFO  : 'con' command is executed.
+14:53:39 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+14:53:39 INFO  : Launch script is exported to file 'C:\Users\a\Desktop\USB\FPGA\ZYNQ_MINI_New\03_Sample_Projects\7010\ARM\arm_13_lwip\ethernetvitis_system\_ide\scripts\systemdebugger_ethernetvitis_system_1_standalone.tcl'
+14:58:47 DEBUG : Logs will be stored at 'C:/Users/a/Desktop/USB/FPGA/ZYNQ_MINI_New/03_Sample_Projects/7010/ARM/arm_13_lwip/IDE.log'.
+14:58:48 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\a\Desktop\USB\FPGA\ZYNQ_MINI_New\03_Sample_Projects\7010\ARM\arm_13_lwip\temp_xsdb_launch_script.tcl
+14:58:50 INFO  : XSCT server has started successfully.
+14:58:50 INFO  : plnx-install-location is set to ''
+14:58:50 INFO  : Successfully done setting XSCT server connection channel  
+14:58:50 INFO  : Successfully done setting workspace for the tool. 
+14:58:51 INFO  : Registering command handlers for Vitis TCF services
+14:58:53 INFO  : Platform repository initialization has completed.
+14:58:53 INFO  : Successfully done query RDI_DATADIR 
+14:59:40 INFO  : Result from executing command 'getProjects': ethernet_1
+14:59:40 INFO  : Result from executing command 'getPlatforms': ethernet_1|C:/Users/a/Desktop/USB/FPGA/ZYNQ_MINI_New/03_Sample_Projects/7010/ARM/arm_13_lwip/ethernet_1/export/ethernet_1/ethernet_1.xpfm;xilinx_vck190_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_202310_1/xilinx_vck190_base_202310_1.xpfm;xilinx_vck190_base_dfx_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_dfx_202310_1/xilinx_vck190_base_dfx_202310_1.xpfm;xilinx_vek280_es1_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vek280_es1_base_202310_1/xilinx_vek280_es1_base_202310_1.xpfm;xilinx_vmk180_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vmk180_base_202310_1/xilinx_vmk180_base_202310_1.xpfm;xilinx_zcu102_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+15:00:10 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:00:10 INFO  : Jtag cable 'Digilent JTAG-SMT2 210251A08870' is selected.
+15:00:10 INFO  : 'jtag frequency' command is executed.
+15:00:10 INFO  : Context for 'APU' is selected.
+15:00:10 INFO  : System reset is completed.
+15:00:13 INFO  : 'after 3000' command is executed.
+15:00:14 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2 210251A08870" && level==0 && jtag_device_ctx=="jsn-JTAG-SMT2-210251A08870-13722093-0"}' command is executed.
+15:00:15 INFO  : Device configured successfully with "C:/Users/a/Desktop/USB/FPGA/ZYNQ_MINI_New/03_Sample_Projects/7010/ARM/arm_13_lwip/ethernetvitis/_ide/bitstream/ethernet.bit"
+15:00:15 INFO  : Context for 'APU' is selected.
+15:00:15 INFO  : Hardware design and registers information is loaded from 'C:/Users/a/Desktop/USB/FPGA/ZYNQ_MINI_New/03_Sample_Projects/7010/ARM/arm_13_lwip/ethernet_1/export/ethernet_1/hw/ethernet.xsa'.
+15:00:15 INFO  : 'configparams force-mem-access 1' command is executed.
+15:00:15 INFO  : Context for 'APU' is selected.
+15:00:15 INFO  : Sourcing of 'C:/Users/a/Desktop/USB/FPGA/ZYNQ_MINI_New/03_Sample_Projects/7010/ARM/arm_13_lwip/ethernetvitis/_ide/psinit/ps7_init.tcl' is done.
+15:00:15 INFO  : 'ps7_init' command is executed.
+15:00:15 INFO  : 'ps7_post_config' command is executed.
+15:00:15 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+15:00:15 INFO  : The application 'C:/Users/a/Desktop/USB/FPGA/ZYNQ_MINI_New/03_Sample_Projects/7010/ARM/arm_13_lwip/ethernetvitis/Debug/ethernetvitis.elf' is downloaded to processor 'ps7_cortexa9_0'.
+15:00:15 INFO  : 'configparams force-mem-access 0' command is executed.
+15:00:15 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2 210251A08870" && level==0 && jtag_device_ctx=="jsn-JTAG-SMT2-210251A08870-13722093-0"}
+fpga -file C:/Users/a/Desktop/USB/FPGA/ZYNQ_MINI_New/03_Sample_Projects/7010/ARM/arm_13_lwip/ethernetvitis/_ide/bitstream/ethernet.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/a/Desktop/USB/FPGA/ZYNQ_MINI_New/03_Sample_Projects/7010/ARM/arm_13_lwip/ethernet_1/export/ethernet_1/hw/ethernet.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/a/Desktop/USB/FPGA/ZYNQ_MINI_New/03_Sample_Projects/7010/ARM/arm_13_lwip/ethernetvitis/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/a/Desktop/USB/FPGA/ZYNQ_MINI_New/03_Sample_Projects/7010/ARM/arm_13_lwip/ethernetvitis/Debug/ethernetvitis.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+15:00:15 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+15:00:16 INFO  : 'con' command is executed.
+15:00:16 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+15:00:16 INFO  : Launch script is exported to file 'C:\Users\a\Desktop\USB\FPGA\ZYNQ_MINI_New\03_Sample_Projects\7010\ARM\arm_13_lwip\ethernetvitis_system\_ide\scripts\systemdebugger_ethernetvitis_system_standalone.tcl'
+15:08:00 INFO  : Disconnected from the channel tcfchan#2.
+15:08:00 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:08:00 INFO  : Jtag cable 'Digilent JTAG-SMT2 210251A08870' is selected.
+15:08:00 INFO  : 'jtag frequency' command is executed.
+15:08:00 INFO  : Context for 'APU' is selected.
+15:08:00 INFO  : System reset is completed.
+15:08:03 INFO  : 'after 3000' command is executed.
+15:08:03 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2 210251A08870" && level==0 && jtag_device_ctx=="jsn-JTAG-SMT2-210251A08870-13722093-0"}' command is executed.
+15:08:04 INFO  : Device configured successfully with "C:/Users/a/Desktop/USB/FPGA/ZYNQ_MINI_New/03_Sample_Projects/7010/ARM/arm_13_lwip/ethernetvitis/_ide/bitstream/ethernet.bit"
+15:08:04 INFO  : Context for 'APU' is selected.
+15:08:04 INFO  : Hardware design and registers information is loaded from 'C:/Users/a/Desktop/USB/FPGA/ZYNQ_MINI_New/03_Sample_Projects/7010/ARM/arm_13_lwip/ethernet_1/export/ethernet_1/hw/ethernet.xsa'.
+15:08:04 INFO  : 'configparams force-mem-access 1' command is executed.
+15:08:04 INFO  : Context for 'APU' is selected.
+15:08:04 INFO  : Sourcing of 'C:/Users/a/Desktop/USB/FPGA/ZYNQ_MINI_New/03_Sample_Projects/7010/ARM/arm_13_lwip/ethernetvitis/_ide/psinit/ps7_init.tcl' is done.
+15:08:05 INFO  : 'ps7_init' command is executed.
+15:08:05 INFO  : 'ps7_post_config' command is executed.
+15:08:05 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+15:08:05 INFO  : The application 'C:/Users/a/Desktop/USB/FPGA/ZYNQ_MINI_New/03_Sample_Projects/7010/ARM/arm_13_lwip/ethernetvitis/Debug/ethernetvitis.elf' is downloaded to processor 'ps7_cortexa9_0'.
+15:08:05 INFO  : 'configparams force-mem-access 0' command is executed.
+15:08:05 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2 210251A08870" && level==0 && jtag_device_ctx=="jsn-JTAG-SMT2-210251A08870-13722093-0"}
+fpga -file C:/Users/a/Desktop/USB/FPGA/ZYNQ_MINI_New/03_Sample_Projects/7010/ARM/arm_13_lwip/ethernetvitis/_ide/bitstream/ethernet.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/a/Desktop/USB/FPGA/ZYNQ_MINI_New/03_Sample_Projects/7010/ARM/arm_13_lwip/ethernet_1/export/ethernet_1/hw/ethernet.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/a/Desktop/USB/FPGA/ZYNQ_MINI_New/03_Sample_Projects/7010/ARM/arm_13_lwip/ethernetvitis/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/a/Desktop/USB/FPGA/ZYNQ_MINI_New/03_Sample_Projects/7010/ARM/arm_13_lwip/ethernetvitis/Debug/ethernetvitis.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+15:08:05 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+15:08:05 INFO  : 'con' command is executed.
+15:08:05 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+15:08:05 INFO  : Launch script is exported to file 'C:\Users\a\Desktop\USB\FPGA\ZYNQ_MINI_New\03_Sample_Projects\7010\ARM\arm_13_lwip\ethernetvitis_system\_ide\scripts\systemdebugger_ethernetvitis_system_standalone.tcl'
+15:12:53 INFO  : Disconnected from the channel tcfchan#3.
+15:12:53 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:12:53 INFO  : Jtag cable 'Digilent JTAG-SMT2 210251A08870' is selected.
+15:12:53 INFO  : 'jtag frequency' command is executed.
+15:12:53 INFO  : Context for 'APU' is selected.
+15:12:53 INFO  : System reset is completed.
+15:12:56 INFO  : 'after 3000' command is executed.
+15:12:56 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2 210251A08870" && level==0 && jtag_device_ctx=="jsn-JTAG-SMT2-210251A08870-13722093-0"}' command is executed.
+15:12:58 INFO  : Device configured successfully with "C:/Users/a/Desktop/USB/FPGA/ZYNQ_MINI_New/03_Sample_Projects/7010/ARM/arm_13_lwip/ethernetvitis/_ide/bitstream/ethernet.bit"
+15:12:58 INFO  : Context for 'APU' is selected.
+15:12:58 INFO  : Hardware design and registers information is loaded from 'C:/Users/a/Desktop/USB/FPGA/ZYNQ_MINI_New/03_Sample_Projects/7010/ARM/arm_13_lwip/ethernet_1/export/ethernet_1/hw/ethernet.xsa'.
+15:12:58 INFO  : 'configparams force-mem-access 1' command is executed.
+15:12:58 INFO  : Context for 'APU' is selected.
+15:12:58 INFO  : Sourcing of 'C:/Users/a/Desktop/USB/FPGA/ZYNQ_MINI_New/03_Sample_Projects/7010/ARM/arm_13_lwip/ethernetvitis/_ide/psinit/ps7_init.tcl' is done.
+15:12:58 INFO  : 'ps7_init' command is executed.
+15:12:58 INFO  : 'ps7_post_config' command is executed.
+15:12:58 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+15:12:58 INFO  : The application 'C:/Users/a/Desktop/USB/FPGA/ZYNQ_MINI_New/03_Sample_Projects/7010/ARM/arm_13_lwip/ethernetvitis/Debug/ethernetvitis.elf' is downloaded to processor 'ps7_cortexa9_0'.
+15:12:58 INFO  : 'configparams force-mem-access 0' command is executed.
+15:12:58 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2 210251A08870" && level==0 && jtag_device_ctx=="jsn-JTAG-SMT2-210251A08870-13722093-0"}
+fpga -file C:/Users/a/Desktop/USB/FPGA/ZYNQ_MINI_New/03_Sample_Projects/7010/ARM/arm_13_lwip/ethernetvitis/_ide/bitstream/ethernet.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/a/Desktop/USB/FPGA/ZYNQ_MINI_New/03_Sample_Projects/7010/ARM/arm_13_lwip/ethernet_1/export/ethernet_1/hw/ethernet.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/a/Desktop/USB/FPGA/ZYNQ_MINI_New/03_Sample_Projects/7010/ARM/arm_13_lwip/ethernetvitis/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/a/Desktop/USB/FPGA/ZYNQ_MINI_New/03_Sample_Projects/7010/ARM/arm_13_lwip/ethernetvitis/Debug/ethernetvitis.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+15:12:58 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+15:12:58 INFO  : 'con' command is executed.
+15:12:58 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+15:12:58 INFO  : Launch script is exported to file 'C:\Users\a\Desktop\USB\FPGA\ZYNQ_MINI_New\03_Sample_Projects\7010\ARM\arm_13_lwip\ethernetvitis_system\_ide\scripts\systemdebugger_ethernetvitis_system_standalone.tcl'
+15:13:58 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:13:58 INFO  : Jtag cable 'Digilent JTAG-SMT2 210251A08870' is selected.
+15:13:58 INFO  : 'jtag frequency' command is executed.
+15:13:58 INFO  : Context for 'APU' is selected.
+15:13:58 INFO  : System reset is completed.
+15:14:01 INFO  : 'after 3000' command is executed.
+15:14:01 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2 210251A08870" && level==0 && jtag_device_ctx=="jsn-JTAG-SMT2-210251A08870-13722093-0"}' command is executed.
+15:14:02 INFO  : Device configured successfully with "C:/Users/a/Desktop/USB/FPGA/ZYNQ_MINI_New/03_Sample_Projects/7010/ARM/arm_13_lwip/ethernetvitis/_ide/bitstream/ethernet.bit"
+15:14:02 INFO  : Context for 'APU' is selected.
+15:14:02 INFO  : Hardware design and registers information is loaded from 'C:/Users/a/Desktop/USB/FPGA/ZYNQ_MINI_New/03_Sample_Projects/7010/ARM/arm_13_lwip/ethernet_1/export/ethernet_1/hw/ethernet.xsa'.
+15:14:02 INFO  : 'configparams force-mem-access 1' command is executed.
+15:14:02 INFO  : Context for 'APU' is selected.
+15:14:02 INFO  : Sourcing of 'C:/Users/a/Desktop/USB/FPGA/ZYNQ_MINI_New/03_Sample_Projects/7010/ARM/arm_13_lwip/ethernetvitis/_ide/psinit/ps7_init.tcl' is done.
+15:14:03 INFO  : 'ps7_init' command is executed.
+15:14:03 INFO  : 'ps7_post_config' command is executed.
+15:14:03 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+15:14:04 INFO  : The application 'C:/Users/a/Desktop/USB/FPGA/ZYNQ_MINI_New/03_Sample_Projects/7010/ARM/arm_13_lwip/ethernetvitis/Debug/ethernetvitis.elf' is downloaded to processor 'ps7_cortexa9_0'.
+15:14:04 INFO  : 'configparams force-mem-access 0' command is executed.
+15:14:04 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2 210251A08870" && level==0 && jtag_device_ctx=="jsn-JTAG-SMT2-210251A08870-13722093-0"}
+fpga -file C:/Users/a/Desktop/USB/FPGA/ZYNQ_MINI_New/03_Sample_Projects/7010/ARM/arm_13_lwip/ethernetvitis/_ide/bitstream/ethernet.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/a/Desktop/USB/FPGA/ZYNQ_MINI_New/03_Sample_Projects/7010/ARM/arm_13_lwip/ethernet_1/export/ethernet_1/hw/ethernet.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/a/Desktop/USB/FPGA/ZYNQ_MINI_New/03_Sample_Projects/7010/ARM/arm_13_lwip/ethernetvitis/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/a/Desktop/USB/FPGA/ZYNQ_MINI_New/03_Sample_Projects/7010/ARM/arm_13_lwip/ethernetvitis/Debug/ethernetvitis.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+15:14:04 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+15:14:04 INFO  : 'con' command is executed.
+15:14:04 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+15:14:04 INFO  : Launch script is exported to file 'C:\Users\a\Desktop\USB\FPGA\ZYNQ_MINI_New\03_Sample_Projects\7010\ARM\arm_13_lwip\ethernetvitis_system\_ide\scripts\systemdebugger_ethernetvitis_system_2_standalone.tcl'
+15:18:07 INFO  : Disconnected from the channel tcfchan#4.
+15:18:08 WARN  : channel "tcfchan#4" closed
+15:18:09 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:18:18 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+----------------End of Script----------------
+
+15:18:18 ERROR : Could not find FPGA device on the board for connection 'Local'.
+
+
+Troubleshooting hints:
+1. Check whether board is connected to system properly.
+2. In case of zynq board, check whether Digilent/Xilinx cable switch settings are correct.
+3. If you are using Xilinx Platform Cable USB, ensure that status LED is green.
+15:18:43 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:18:43 INFO  : Jtag cable 'Digilent JTAG-SMT2 210251A08870' is selected.
+15:18:43 INFO  : 'jtag frequency' command is executed.
+15:18:43 INFO  : Context for 'APU' is selected.
+15:18:43 INFO  : System reset is completed.
+15:18:46 INFO  : 'after 3000' command is executed.
+15:18:46 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2 210251A08870" && level==0 && jtag_device_ctx=="jsn-JTAG-SMT2-210251A08870-13722093-0"}' command is executed.
+15:18:48 INFO  : Device configured successfully with "C:/Users/a/Desktop/USB/FPGA/ZYNQ_MINI_New/03_Sample_Projects/7010/ARM/arm_13_lwip/ethernetvitis/_ide/bitstream/ethernet.bit"
+15:18:48 INFO  : Context for 'APU' is selected.
+15:18:48 INFO  : Hardware design and registers information is loaded from 'C:/Users/a/Desktop/USB/FPGA/ZYNQ_MINI_New/03_Sample_Projects/7010/ARM/arm_13_lwip/ethernet_1/export/ethernet_1/hw/ethernet.xsa'.
+15:18:48 INFO  : 'configparams force-mem-access 1' command is executed.
+15:18:48 INFO  : Context for 'APU' is selected.
+15:18:48 INFO  : Sourcing of 'C:/Users/a/Desktop/USB/FPGA/ZYNQ_MINI_New/03_Sample_Projects/7010/ARM/arm_13_lwip/ethernetvitis/_ide/psinit/ps7_init.tcl' is done.
+15:18:48 INFO  : 'ps7_init' command is executed.
+15:18:48 INFO  : 'ps7_post_config' command is executed.
+15:18:48 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+15:18:48 INFO  : The application 'C:/Users/a/Desktop/USB/FPGA/ZYNQ_MINI_New/03_Sample_Projects/7010/ARM/arm_13_lwip/ethernetvitis/Debug/ethernetvitis.elf' is downloaded to processor 'ps7_cortexa9_0'.
+15:18:48 INFO  : 'configparams force-mem-access 0' command is executed.
+15:18:48 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2 210251A08870" && level==0 && jtag_device_ctx=="jsn-JTAG-SMT2-210251A08870-13722093-0"}
+fpga -file C:/Users/a/Desktop/USB/FPGA/ZYNQ_MINI_New/03_Sample_Projects/7010/ARM/arm_13_lwip/ethernetvitis/_ide/bitstream/ethernet.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/a/Desktop/USB/FPGA/ZYNQ_MINI_New/03_Sample_Projects/7010/ARM/arm_13_lwip/ethernet_1/export/ethernet_1/hw/ethernet.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/a/Desktop/USB/FPGA/ZYNQ_MINI_New/03_Sample_Projects/7010/ARM/arm_13_lwip/ethernetvitis/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/a/Desktop/USB/FPGA/ZYNQ_MINI_New/03_Sample_Projects/7010/ARM/arm_13_lwip/ethernetvitis/Debug/ethernetvitis.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+15:18:48 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+15:18:48 INFO  : 'con' command is executed.
+15:18:48 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+15:18:48 INFO  : Launch script is exported to file 'C:\Users\a\Desktop\USB\FPGA\ZYNQ_MINI_New\03_Sample_Projects\7010\ARM\arm_13_lwip\ethernetvitis_system\_ide\scripts\systemdebugger_ethernetvitis_system_2_standalone.tcl'
+15:23:19 INFO  : Disconnected from the channel tcfchan#5.
+15:23:20 ERROR : (XRT Server)C:/Xilinx/Vitis/2023.1/bin/unwrapped/win64.o/xrt_server.exe: error: illegal option '-'
+Usage: agent [OPTION]...
+Start Target Communication Framework agent.
+  -d               run in daemon mode (output is sent to system logger)
+  -i               run in interactive mode
+  -L<file>         enable logging, use -L- to send log to stderr
+  -l<level>        set log level, the level is comma separated list of:
+      alloc        memory allocation and deallocation (0x1)
+      eventcore    main event queue (0x2)
+      waitpid      waitpid() events (0x4)
+      events       low-level debugger events (0x8)
+      protocol     communication protocol (0x20)
+      context      debug context actions (0x40)
+      children     debug context children (0x10)
+      discovery    discovery (0x80)
+      asyncreq     async I/O (0x100)
+      proxy        proxy state (0x200)
+      tcflog       proxy traffic (0x400)
+      elf          ELF reader (0x800)
+      stack        stack trace service (0x2000)
+      plugin       plugins (0x4000)
+      shutdown     shutdown of subsystems (0x8000)
+      disasm       disassembly service (0x10000)
+  -s<url>          set agent listening port and protocol, default is tcp::0
+  -S               print server properties in Json format to stdout
+  -g<port>         start GDB Remote Serial Protocol server at the specified TCP port
+  -I<idle-seconds> exit if there are no connections for the specified time
+
+15:23:22 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:23:22 INFO  : Jtag cable 'Digilent JTAG-SMT2 210251A08870' is selected.
+15:23:22 INFO  : 'jtag frequency' command is executed.
+15:23:22 INFO  : Context for 'APU' is selected.
+15:23:22 INFO  : System reset is completed.
+15:23:25 INFO  : 'after 3000' command is executed.
+15:23:25 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2 210251A08870" && level==0 && jtag_device_ctx=="jsn-JTAG-SMT2-210251A08870-13722093-0"}' command is executed.
+15:23:26 INFO  : Device configured successfully with "C:/Users/a/Desktop/USB/FPGA/ZYNQ_MINI_New/03_Sample_Projects/7010/ARM/arm_13_lwip/ethernetvitis/_ide/bitstream/ethernet.bit"
+15:23:26 INFO  : Context for 'APU' is selected.
+15:23:26 INFO  : Hardware design and registers information is loaded from 'C:/Users/a/Desktop/USB/FPGA/ZYNQ_MINI_New/03_Sample_Projects/7010/ARM/arm_13_lwip/ethernet_1/export/ethernet_1/hw/ethernet.xsa'.
+15:23:26 INFO  : 'configparams force-mem-access 1' command is executed.
+15:23:26 INFO  : Context for 'APU' is selected.
+15:23:26 INFO  : Sourcing of 'C:/Users/a/Desktop/USB/FPGA/ZYNQ_MINI_New/03_Sample_Projects/7010/ARM/arm_13_lwip/ethernetvitis/_ide/psinit/ps7_init.tcl' is done.
+15:23:27 INFO  : 'ps7_init' command is executed.
+15:23:27 INFO  : 'ps7_post_config' command is executed.
+15:23:27 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+15:23:27 INFO  : The application 'C:/Users/a/Desktop/USB/FPGA/ZYNQ_MINI_New/03_Sample_Projects/7010/ARM/arm_13_lwip/ethernetvitis/Debug/ethernetvitis.elf' is downloaded to processor 'ps7_cortexa9_0'.
+15:23:27 INFO  : 'configparams force-mem-access 0' command is executed.
+15:23:27 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2 210251A08870" && level==0 && jtag_device_ctx=="jsn-JTAG-SMT2-210251A08870-13722093-0"}
+fpga -file C:/Users/a/Desktop/USB/FPGA/ZYNQ_MINI_New/03_Sample_Projects/7010/ARM/arm_13_lwip/ethernetvitis/_ide/bitstream/ethernet.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/a/Desktop/USB/FPGA/ZYNQ_MINI_New/03_Sample_Projects/7010/ARM/arm_13_lwip/ethernet_1/export/ethernet_1/hw/ethernet.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/a/Desktop/USB/FPGA/ZYNQ_MINI_New/03_Sample_Projects/7010/ARM/arm_13_lwip/ethernetvitis/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/a/Desktop/USB/FPGA/ZYNQ_MINI_New/03_Sample_Projects/7010/ARM/arm_13_lwip/ethernetvitis/Debug/ethernetvitis.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+15:23:27 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+15:23:27 INFO  : 'con' command is executed.
+15:23:27 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+15:23:27 INFO  : Launch script is exported to file 'C:\Users\a\Desktop\USB\FPGA\ZYNQ_MINI_New\03_Sample_Projects\7010\ARM\arm_13_lwip\ethernetvitis_system\_ide\scripts\systemdebugger_ethernetvitis_system_2_standalone.tcl'
+15:24:20 ERROR : Timed out. 60 seconds have elapsed while waiting for the XRT server to launch.
+15:27:40 INFO  : Disconnected from the channel tcfchan#6.
+15:27:41 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:27:41 INFO  : Jtag cable 'Digilent JTAG-SMT2 210251A08870' is selected.
+15:27:41 ERROR : port closed
+15:27:41 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+----------------End of Script----------------
+
+15:27:41 ERROR : port closed
