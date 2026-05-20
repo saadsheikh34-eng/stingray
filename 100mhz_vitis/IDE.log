@@ -1,0 +1,219 @@
+13:53:43 INFO  : Platform repository initialization has completed.
+13:53:43 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\Saad\Desktop\stingray\100mhz_vitis\temp_xsdb_launch_script.tcl
+13:53:44 INFO  : Registering command handlers for Vitis TCF services
+13:53:49 INFO  : XSCT server has started successfully.
+13:54:05 INFO  : plnx-install-location is set to ''
+13:54:05 INFO  : Successfully done setting XSCT server connection channel  
+13:54:05 INFO  : Successfully done query RDI_DATADIR 
+13:54:05 INFO  : Successfully done setting workspace for the tool. 
+13:57:57 INFO  : Result from executing command 'getProjects': 100mhz_ethernet
+13:57:57 INFO  : Result from executing command 'getPlatforms': 
+13:57:58 WARN  : An unexpected exception occurred in the module 'platform project logging'
+13:57:58 INFO  : Platform '100mhz_ethernet' is added to custom repositories.
+13:58:10 INFO  : Platform '100mhz_ethernet' is added to custom repositories.
+13:59:42 INFO  : Result from executing command 'getProjects': 100mhz_ethernet
+13:59:42 INFO  : Result from executing command 'getPlatforms': 100mhz_ethernet|C:/Users/Saad/Desktop/stingray/100mhz_vitis/100mhz_ethernet/export/100mhz_ethernet/100mhz_ethernet.xpfm
+13:59:43 INFO  : Checking for BSP changes to sync application flags for project '100mhz'...
+14:00:42 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:00:42 INFO  : Jtag cable 'Digilent JTAG-SMT2 210251A08870' is selected.
+14:00:42 INFO  : 'jtag frequency' command is executed.
+14:00:42 INFO  : Context for 'APU' is selected.
+14:00:42 INFO  : System reset is completed.
+14:00:45 INFO  : 'after 3000' command is executed.
+14:00:46 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2 210251A08870" && level==0 && jtag_device_ctx=="jsn-JTAG-SMT2-210251A08870-13722093-0"}' command is executed.
+14:00:47 INFO  : Device configured successfully with "C:/Users/Saad/Desktop/stingray/100mhz_vitis/100mhz/_ide/bitstream/100mhz_ethernet.bit"
+14:00:47 INFO  : Context for 'APU' is selected.
+14:00:47 INFO  : Hardware design and registers information is loaded from 'C:/Users/Saad/Desktop/stingray/100mhz_vitis/100mhz_ethernet/export/100mhz_ethernet/hw/100mhz_ethernet.xsa'.
+14:00:47 INFO  : 'configparams force-mem-access 1' command is executed.
+14:00:48 INFO  : Context for 'APU' is selected.
+14:00:48 INFO  : Sourcing of 'C:/Users/Saad/Desktop/stingray/100mhz_vitis/100mhz/_ide/psinit/ps7_init.tcl' is done.
+14:00:51 INFO  : 'ps7_init' command is executed.
+14:00:51 INFO  : 'ps7_post_config' command is executed.
+14:00:51 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+14:00:53 INFO  : The application 'C:/Users/Saad/Desktop/stingray/100mhz_vitis/100mhz/Debug/100mhz.elf' is downloaded to processor 'ps7_cortexa9_0'.
+14:00:53 INFO  : 'configparams force-mem-access 0' command is executed.
+14:00:53 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2 210251A08870" && level==0 && jtag_device_ctx=="jsn-JTAG-SMT2-210251A08870-13722093-0"}
+fpga -file C:/Users/Saad/Desktop/stingray/100mhz_vitis/100mhz/_ide/bitstream/100mhz_ethernet.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/Saad/Desktop/stingray/100mhz_vitis/100mhz_ethernet/export/100mhz_ethernet/hw/100mhz_ethernet.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/Saad/Desktop/stingray/100mhz_vitis/100mhz/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/Saad/Desktop/stingray/100mhz_vitis/100mhz/Debug/100mhz.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+14:00:54 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+14:00:54 INFO  : 'con' command is executed.
+14:00:54 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+14:00:54 INFO  : Launch script is exported to file 'C:\Users\Saad\Desktop\stingray\100mhz_vitis\100mhz_system\_ide\scripts\systemdebugger_100mhz_system_standalone.tcl'
+14:03:07 INFO  : Disconnected from the channel tcfchan#2.
+14:03:07 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:03:08 INFO  : Jtag cable 'Digilent JTAG-SMT2 210251A08870' is selected.
+14:03:08 INFO  : 'jtag frequency' command is executed.
+14:03:08 INFO  : Context for 'APU' is selected.
+14:03:08 INFO  : System reset is completed.
+14:03:11 INFO  : 'after 3000' command is executed.
+14:03:11 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2 210251A08870" && level==0 && jtag_device_ctx=="jsn-JTAG-SMT2-210251A08870-13722093-0"}' command is executed.
+14:03:13 INFO  : Device configured successfully with "C:/Users/Saad/Desktop/stingray/100mhz_vitis/100mhz/_ide/bitstream/100mhz_ethernet.bit"
+14:03:13 INFO  : Context for 'APU' is selected.
+14:03:13 INFO  : Hardware design and registers information is loaded from 'C:/Users/Saad/Desktop/stingray/100mhz_vitis/100mhz_ethernet/export/100mhz_ethernet/hw/100mhz_ethernet.xsa'.
+14:03:13 INFO  : 'configparams force-mem-access 1' command is executed.
+14:03:13 INFO  : Context for 'APU' is selected.
+14:03:13 INFO  : Sourcing of 'C:/Users/Saad/Desktop/stingray/100mhz_vitis/100mhz/_ide/psinit/ps7_init.tcl' is done.
+14:03:16 INFO  : 'ps7_init' command is executed.
+14:03:17 INFO  : 'ps7_post_config' command is executed.
+14:03:17 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+14:03:18 INFO  : The application 'C:/Users/Saad/Desktop/stingray/100mhz_vitis/100mhz/Debug/100mhz.elf' is downloaded to processor 'ps7_cortexa9_0'.
+14:03:19 INFO  : 'configparams force-mem-access 0' command is executed.
+14:03:19 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2 210251A08870" && level==0 && jtag_device_ctx=="jsn-JTAG-SMT2-210251A08870-13722093-0"}
+fpga -file C:/Users/Saad/Desktop/stingray/100mhz_vitis/100mhz/_ide/bitstream/100mhz_ethernet.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/Saad/Desktop/stingray/100mhz_vitis/100mhz_ethernet/export/100mhz_ethernet/hw/100mhz_ethernet.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/Saad/Desktop/stingray/100mhz_vitis/100mhz/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/Saad/Desktop/stingray/100mhz_vitis/100mhz/Debug/100mhz.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+14:03:20 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+14:03:20 INFO  : 'con' command is executed.
+14:03:20 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+14:03:20 INFO  : Launch script is exported to file 'C:\Users\Saad\Desktop\stingray\100mhz_vitis\100mhz_system\_ide\scripts\systemdebugger_100mhz_system_standalone.tcl'
+14:06:40 INFO  : Disconnected from the channel tcfchan#3.
+14:06:40 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:06:40 INFO  : Jtag cable 'Digilent JTAG-SMT2 210251A08870' is selected.
+14:06:41 INFO  : 'jtag frequency' command is executed.
+14:06:41 INFO  : Context for 'APU' is selected.
+14:06:41 INFO  : System reset is completed.
+14:06:44 INFO  : 'after 3000' command is executed.
+14:06:44 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2 210251A08870" && level==0 && jtag_device_ctx=="jsn-JTAG-SMT2-210251A08870-13722093-0"}' command is executed.
+14:06:45 INFO  : Device configured successfully with "C:/Users/Saad/Desktop/stingray/100mhz_vitis/100mhz/_ide/bitstream/100mhz_ethernet.bit"
+14:06:46 INFO  : Context for 'APU' is selected.
+14:06:46 INFO  : Hardware design and registers information is loaded from 'C:/Users/Saad/Desktop/stingray/100mhz_vitis/100mhz_ethernet/export/100mhz_ethernet/hw/100mhz_ethernet.xsa'.
+14:06:46 INFO  : 'configparams force-mem-access 1' command is executed.
+14:06:46 INFO  : Context for 'APU' is selected.
+14:06:46 INFO  : Sourcing of 'C:/Users/Saad/Desktop/stingray/100mhz_vitis/100mhz/_ide/psinit/ps7_init.tcl' is done.
+14:06:50 INFO  : 'ps7_init' command is executed.
+14:06:50 INFO  : 'ps7_post_config' command is executed.
+14:06:50 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+14:06:51 INFO  : The application 'C:/Users/Saad/Desktop/stingray/100mhz_vitis/100mhz/Debug/100mhz.elf' is downloaded to processor 'ps7_cortexa9_0'.
+14:06:51 INFO  : 'configparams force-mem-access 0' command is executed.
+14:06:51 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2 210251A08870" && level==0 && jtag_device_ctx=="jsn-JTAG-SMT2-210251A08870-13722093-0"}
+fpga -file C:/Users/Saad/Desktop/stingray/100mhz_vitis/100mhz/_ide/bitstream/100mhz_ethernet.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/Saad/Desktop/stingray/100mhz_vitis/100mhz_ethernet/export/100mhz_ethernet/hw/100mhz_ethernet.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/Saad/Desktop/stingray/100mhz_vitis/100mhz/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/Saad/Desktop/stingray/100mhz_vitis/100mhz/Debug/100mhz.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+14:06:52 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+14:06:52 INFO  : 'con' command is executed.
+14:06:52 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+14:06:52 INFO  : Launch script is exported to file 'C:\Users\Saad\Desktop\stingray\100mhz_vitis\100mhz_system\_ide\scripts\systemdebugger_100mhz_system_standalone.tcl'
+14:30:43 INFO  : Disconnected from the channel tcfchan#4.
+14:41:30 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\Saad\Desktop\stingray\100mhz_vitis\temp_xsdb_launch_script.tcl
+14:41:33 INFO  : XSCT server has started successfully.
+14:41:33 INFO  : Successfully done setting XSCT server connection channel  
+14:41:33 INFO  : plnx-install-location is set to ''
+14:41:33 INFO  : Successfully done setting workspace for the tool. 
+14:41:37 INFO  : Platform repository initialization has completed.
+14:41:37 INFO  : Successfully done query RDI_DATADIR 
+14:41:37 INFO  : Registering command handlers for Vitis TCF services
+17:16:25 INFO  : Checking for BSP changes to sync application flags for project '100mhz'...
+17:17:37 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:17:52 INFO  : Jtag cable 'Digilent JTAG-SMT2 210251A08870' is selected.
+17:18:05 INFO  : 'jtag frequency' command is executed.
+17:18:08 ERROR : no targets found with "name =~"APU*"". available targets:
+  5  whole scan chain (FT_Write failed: io error)
+17:18:08 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+----------------End of Script----------------
+
+17:18:08 ERROR : no targets found with "name =~"APU*"". available targets:
+  5  whole scan chain (FT_Write failed: io error)
+17:24:38 INFO  : Checking for BSP changes to sync application flags for project '100mhz'...
+17:35:05 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\Saad\Desktop\stingray\100mhz_vitis\temp_xsdb_launch_script.tcl
+17:35:07 INFO  : XSCT server has started successfully.
+17:35:07 INFO  : plnx-install-location is set to ''
+17:35:07 INFO  : Successfully done setting XSCT server connection channel  
+17:35:07 INFO  : Successfully done setting workspace for the tool. 
+17:35:09 INFO  : Platform repository initialization has completed.
+17:35:10 INFO  : Registering command handlers for Vitis TCF services
+17:35:10 INFO  : Successfully done query RDI_DATADIR 
+17:36:01 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:36:16 INFO  : Jtag cable 'Digilent JTAG-SMT2 210251A08870' is selected.
+17:36:39 INFO  : 'jtag frequency' command is executed.
+17:36:42 ERROR : no targets found with "name =~"APU*"". available targets:
+  5  whole scan chain (FT_Read returned 0, expected 133)
+17:36:42 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+----------------End of Script----------------
+
+17:36:42 ERROR : no targets found with "name =~"APU*"". available targets:
+  5  whole scan chain (FT_Read returned 0, expected 133)
+18:38:14 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\Saad\Desktop\stingray\100mhz_vitis\temp_xsdb_launch_script.tcl
+18:38:18 INFO  : Platform repository initialization has completed.
+18:38:19 INFO  : Registering command handlers for Vitis TCF services
+18:38:19 INFO  : XSCT server has started successfully.
+18:38:19 INFO  : plnx-install-location is set to ''
+18:38:26 INFO  : Successfully done setting XSCT server connection channel  
+18:38:26 INFO  : Successfully done query RDI_DATADIR 
+18:38:26 INFO  : Successfully done setting workspace for the tool. 
+18:38:37 INFO  : Checking for BSP changes to sync application flags for project '100mhz'...
+18:39:02 INFO  : Result from executing command 'removePlatformRepo': 
+18:39:38 INFO  : Result from executing command 'getProjects': 100mhz_ethernet
+18:39:38 INFO  : Result from executing command 'getPlatforms': 
+18:39:38 INFO  : Checking for BSP changes to sync application flags for project '100mhz'...
+18:40:40 INFO  : Checking for BSP changes to sync application flags for project '100mhz'...
+21:17:06 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\Saad\Desktop\stingray\100mhz_vitis\temp_xsdb_launch_script.tcl
+21:17:08 INFO  : XSCT server has started successfully.
+21:17:08 INFO  : plnx-install-location is set to ''
+21:17:08 INFO  : Successfully done setting XSCT server connection channel  
+21:17:08 INFO  : Successfully done setting workspace for the tool. 
+21:17:10 INFO  : Platform repository initialization has completed.
+21:17:10 INFO  : Registering command handlers for Vitis TCF services
+21:17:11 INFO  : Successfully done query RDI_DATADIR 
+21:17:25 INFO  : Result from executing command 'removePlatformRepo': 

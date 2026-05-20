@@ -479,3 +479,8 @@ write_hw_platform -fixed -include_bit -force -file C:/Users/Saad/Desktop/stingra
 INFO: [Vivado 12-4895] Creating Hardware Platform: C:/Users/Saad/Desktop/stingray/arm_fpga_04_hdmi_output/100mhz_ethernet.xsa ...
 INFO: [Vivado 12-12464] The Hardware Platform can be used for Hardware
 INFO: [Vivado 12-4896] Successfully created Hardware Platform: C:/Users/Saad/Desktop/stingray/arm_fpga_04_hdmi_output/100mhz_ethernet.xsa
+INFO: [Vivado 12-8231] Launching Vitis
+INFO: [Vivado 12-417] Running vitis
+INFO: [Vivado 12-8232] Vitis launch initiated. Please check console for any further messages.
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed May 20 17:29:50 2026...

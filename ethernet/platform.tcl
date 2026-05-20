@@ -48,3 +48,9 @@ platform clean
 platform generate
 platform clean
 platform generate
+platform generate
+platform active {ethernet}
+platform generate -domains 
+platform config -updatehw {C:/Users/Saad/Desktop/stingray/arm_fpga_04_hdmi_output/100mhz_ethernet.xsa}
+platform clean
+platform generate

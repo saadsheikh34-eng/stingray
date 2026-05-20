@@ -1,0 +1,225 @@
+Nothing to build in platform '100mhz_ethernet'
+
+18:40:40 **** Incremental Build of configuration Debug for project 100mhz ****
+make all 
+make --no-print-directory pre-build
+a9-linaro-pre-build-step
+' '
+make --no-print-directory main-build
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/Saad/Desktop/stingray/100mhz_vitis/100mhz_ethernet/export/100mhz_ethernet/sw/100mhz_ethernet/standalone_ps7_cortexa9_0/bspinclude/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:128:2: error: parameter 'mac_ethernet_address' is initialized
+  128 |  unsigned char mac_ethernet_address[] =
+      |  ^~~~~~~~
+../src/main.c:129:10: warning: excess elements in scalar initializer
+  129 |  { 0x00, 0x0a, 0x35, 0x00, 0x01, 0x02 };
+      |          ^~~~
+../src/main.c:129:10: note: (near initialization for 'mac_ethernet_address')
+../src/main.c:129:16: warning: excess elements in scalar initializer
+  129 |  { 0x00, 0x0a, 0x35, 0x00, 0x01, 0x02 };
+      |                ^~~~
+../src/main.c:129:16: note: (near initialization for 'mac_ethernet_address')
+../src/main.c:129:22: warning: excess elements in scalar initializer
+  129 |  { 0x00, 0x0a, 0x35, 0x00, 0x01, 0x02 };
+      |                      ^~~~
+../src/main.c:129:22: note: (near initialization for 'mac_ethernet_address')
+../src/main.c:129:28: warning: excess elements in scalar initializer
+  129 |  { 0x00, 0x0a, 0x35, 0x00, 0x01, 0x02 };
+      |                            ^~~~
+../src/main.c:129:28: note: (near initialization for 'mac_ethernet_address')
+../src/main.c:129:34: warning: excess elements in scalar initializer
+  129 |  { 0x00, 0x0a, 0x35, 0x00, 0x01, 0x02 };
+      |                                  ^~~~
+../src/main.c:129:34: note: (near initialization for 'mac_ethernet_address')
+../src/main.c:131:2: error: expected declaration specifiers before 'echo_netif'
+  131 |  echo_netif = &server_netif;
+      |  ^~~~~~~~~~
+../src/main.c:147:2: error: expected declaration specifiers before 'init_platform'
+  147 |  init_platform();
+      |  ^~~~~~~~~~~~~
+../src/main.c:151:5: error: expected declaration specifiers before 'ipaddr'
+  151 |     ipaddr.addr = 0;
+      |     ^~~~~~
+../src/main.c:152:2: error: expected declaration specifiers before 'gw'
+  152 |  gw.addr = 0;
+      |  ^~
+../src/main.c:153:2: error: expected declaration specifiers before 'netmask'
+  153 |  netmask.addr = 0;
+      |  ^~~~~~~
+../src/main.c:161:2: error: expected declaration specifiers before 'print_app_header'
+  161 |  print_app_header();
+      |  ^~~~~~~~~~~~~~~~
+../src/main.c:163:2: error: expected declaration specifiers before 'lwip_init'
+  163 |  lwip_init();
+      |  ^~~~~~~~~
+../src/main.c:167:2: error: expected declaration specifiers before 'if'
+  167 |  if (!xemac_add(echo_netif, &ipaddr, &netmask,
+      |  ^~
+../src/main.c:188:2: error: expected declaration specifiers before 'netif_set_default'
+  188 |  netif_set_default(echo_netif);
+      |  ^~~~~~~~~~~~~~~~~
+../src/main.c:191:2: error: expected declaration specifiers before 'platform_enable_interrupts'
+  191 |  platform_enable_interrupts();
+      |  ^~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/main.c:194:2: error: expected declaration specifiers before 'netif_set_up'
+  194 |  netif_set_up(echo_netif);
+      |  ^~~~~~~~~~~~
+../src/main.c:202:2: error: expected declaration specifiers before 'dhcp_start'
+  202 |  dhcp_start(echo_netif);
+      |  ^~~~~~~~~~
+../src/main.c:203:2: error: expected declaration specifiers before 'dhcp_timoutcntr'
+  203 |  dhcp_timoutcntr = 24;
+      |  ^~~~~~~~~~~~~~~
+../src/main.c:205:2: error: expected declaration specifiers before 'while'
+  205 |  while(((echo_netif->ip_addr.addr) == 0) && (dhcp_timoutcntr > 0))
+      |  ^~~~~
+../src/main.c:208:2: error: expected declaration specifiers before 'if'
+  208 |  if (dhcp_timoutcntr <= 0) {
+      |  ^~
+../src/main.c:218:2: error: expected declaration specifiers before 'ipaddr'
+  218 |  ipaddr.addr = echo_netif->ip_addr.addr;
+      |  ^~~~~~
+../src/main.c:219:2: error: expected declaration specifiers before 'gw'
+  219 |  gw.addr = echo_netif->gw.addr;
+      |  ^~
+../src/main.c:220:2: error: expected declaration specifiers before 'netmask'
+  220 |  netmask.addr = echo_netif->netmask.addr;
+      |  ^~~~~~~
+../src/main.c:223:2: error: expected declaration specifiers before 'print_ip_settings'
+  223 |  print_ip_settings(&ipaddr, &netmask, &gw);
+      |  ^~~~~~~~~~~~~~~~~
+../src/main.c:227:2: error: expected declaration specifiers before 'start_application'
+  227 |  start_application();
+      |  ^~~~~~~~~~~~~~~~~
+../src/main.c:230:2: error: expected declaration specifiers before 'while'
+  230 |  while (1) {
+      |  ^~~~~
+../src/main.c:244:2: error: expected declaration specifiers before 'cleanup_platform'
+  244 |  cleanup_platform();
+      |  ^~~~~~~~~~~~~~~~
+../src/main.c:246:2: error: expected declaration specifiers before 'return'
+  246 |  return 0;
+      |  ^~~~~~
+../src/main.c:247:1: error: expected declaration specifiers before '}' token
+  247 | }
+      | ^
+../src/main.c:128:16: error: declaration for parameter 'mac_ethernet_address' but no such parameter
+  128 |  unsigned char mac_ethernet_address[] =
+      |                ^~~~~~~~~~~~~~~~~~~~
+../src/main.c:124:29: error: declaration for parameter 'gw' but no such parameter
+  124 |  ip_addr_t ipaddr, netmask, gw;
+      |                             ^~
+../src/main.c:124:20: error: declaration for parameter 'netmask' but no such parameter
+  124 |  ip_addr_t ipaddr, netmask, gw;
+      |                    ^~~~~~~
+../src/main.c:124:12: error: declaration for parameter 'ipaddr' but no such parameter
+  124 |  ip_addr_t ipaddr, netmask, gw;
+      |            ^~~~~~
+../src/main.c:247: error: expected '{' at end of input
+  247 | }
+      | 
+At top level:
+../src/main.c:71:21: warning: 'server_netif' defined but not used [-Wunused-variable]
+   71 | static struct netif server_netif;
+      |                     ^~~~~~~~~~~~
+make[1]: *** [src/subdir.mk:56: src/main.o] Error 1
+make: *** [makefile:36: all] Error 2
+21:17:21 **** Clean-only build of configuration Debug for project 100mhz ****
+make clean 
+rm -rf  ./src/dynclk/dynclk.o  ./src/display_ctrl/display_ctrl.o  ./src/display_demo.o ./src/echo.o ./src/i2c_access.o ./src/iic_phyreset.o ./src/main.o ./src/platform.o ./src/platform_mb.o ./src/platform_ppc.o ./src/platform_zynq.o ./src/platform_zynqmp.o ./src/sfp.o ./src/si5324.o  ./src/dynclk/dynclk.d  ./src/display_ctrl/display_ctrl.d  ./src/display_demo.d ./src/echo.d ./src/i2c_access.d ./src/iic_phyreset.d ./src/main.d ./src/platform.d ./src/platform_mb.d ./src/platform_ppc.d ./src/platform_zynq.d ./src/platform_zynqmp.d ./src/sfp.d ./src/si5324.d  100mhz.elf.size  100mhz.elf
+' '
+21:17:21 **** Clean-only build of project 100mhz_ethernet ****
+buildplatform.bat 52123 100mhz_ethernet clean 
+XSDB Server Channel: tcfchan#1
+Reading the platform  : "100mhz_ethernet"
+Cleaning the zynq_fsbl application.
+rm -rf  sd.o  nand.o  image_mover.o  md5.o  fsbl_hooks.o  main.o  nor.o  qspi.o  rsa.o  ps7_init.o  pcap.o  fsbl_handoff.o zynq
+_fsbl_bsp/ps7_cortexa9_0/lib/libxil.a fsbl.elf *.o
+
+Cleaning the zynq_fsbl application, bsp
+make -C ps7_cortexa9_0/libsrc/axivdma_v6_10/src -s clean 
+
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_8/src -s clean 
+
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_11/src -s clean 
+
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_2/src -s clean 
+
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_7/src -s clean 
+
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_8/src -s clean 
+
+make -C ps7_cortexa9_0/libsrc/emacps_v3_15/src -s clean 
+
+make -C ps7_cortexa9_0/libsrc/gpio_v4_8/src -s clean 
+
+make -C ps7_cortexa9_0/libsrc/scugic_v4_6/src -s clean 
+
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_3/src -s clean 
+
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_4/src -s clean 
+
+make -C ps7_cortexa9_0/libsrc/sdps_v3_13/src -s clean 
+
+make -C ps7_cortexa9_0/libsrc/standalone_v7_6/src -s clean 
+
+make -C ps7_cortexa9_0/libsrc/uartps_v3_11/src -s clean 
+
+make -C ps7_cortexa9_0/libsrc/usbps_v2_7/src -s clean 
+
+make -C ps7_cortexa9_0/libsrc/vtc_v8_4/src -s clean 
+
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_6/src -s clean 
+
+make -C ps7_cortexa9_0/libsrc/xilffs_v4_6/src -s clean 
+
+make -C ps7_cortexa9_0/libsrc/xilrsa_v1_6/src -s clean 
+
+rm -f ps7_cortexa9_0/lib/libxil.a
+
+Cleaning the BSP for domain  - standalone_ps7_cortexa9_0
+make -C ps7_cortexa9_0/libsrc/axivdma_v6_10/src -s clean 
+
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_8/src -s clean 
+
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_11/src -s clean 
+
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_2/src -s clean 
+
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_7/src -s clean 
+
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_8/src -s clean 
+
+make -C ps7_cortexa9_0/libsrc/emacps_v3_15/src -s clean 
+
+make -C ps7_cortexa9_0/libsrc/gpio_v4_8/src -s clean 
+
+make -C ps7_cortexa9_0/libsrc/lwip211_v1_6/src -s clean 
+
+make -C ps7_cortexa9_0/libsrc/scugic_v4_6/src -s clean 
+
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_3/src -s clean 
+
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_4/src -s clean 
+
+make -C ps7_cortexa9_0/libsrc/sdps_v3_13/src -s clean 
+
+make -C ps7_cortexa9_0/libsrc/standalone_v7_6/src -s clean 
+
+make -C ps7_cortexa9_0/libsrc/uartps_v3_11/src -s clean 
+
+make -C ps7_cortexa9_0/libsrc/usbps_v2_7/src -s clean 
+
+make -C ps7_cortexa9_0/libsrc/vtc_v8_4/src -s clean 
+
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_6/src -s clean 
+
+rm -f ps7_cortexa9_0/lib/libxil.a
+
+21:17:31 **** Clean-only build of configuration Debug for project 100mhz_system ****
+make clean 
+rm -rf ./_sds
+rm -rf package
+rm -f system.bif

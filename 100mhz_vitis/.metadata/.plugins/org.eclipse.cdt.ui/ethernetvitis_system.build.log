@@ -1,0 +1,84 @@
+14:53:20 **** Build of configuration Debug for project ethernetvitis_system ****
+make all 
+Generating bif file for the system project
+generate_system_bif.bat 62482 C:/Users/a/Desktop/USB/FPGA/ZYNQ_MINI_New/03_Sample_Projects/7010/ARM/arm_13_lwip/ethernet_1/export/ethernet_1/ethernet_1.xpfm standalone_ps7_cortexa9_0 C:/Users/a/Desktop/USB/FPGA/ZYNQ_MINI_New/03_Sample_Projects/7010/ARM/arm_13_lwip/ethernetvitis_system/Debug/system.bif
+sdcard_gen --xpfm C:/Users/a/Desktop/USB/FPGA/ZYNQ_MINI_New/03_Sample_Projects/7010/ARM/arm_13_lwip/ethernet_1/export/ethernet_1/ethernet_1.xpfm --sys_config ethernet_1 --bif C:/Users/a/Desktop/USB/FPGA/ZYNQ_MINI_New/03_Sample_Projects/7010/ARM/arm_13_lwip/ethernetvitis_system/Debug/system.bif --bitstream C:/Users/a/Desktop/USB/FPGA/ZYNQ_MINI_New/03_Sample_Projects/7010/ARM/arm_13_lwip/ethernetvitis/_ide/bitstream/ethernet.bit --elf C:/Users/a/Desktop/USB/FPGA/ZYNQ_MINI_New/03_Sample_Projects/7010/ARM/arm_13_lwip/ethernetvitis/Debug/ethernetvitis.elf,ps7_cortexa9_0
+creating BOOT.BIN using C:/Users/a/Desktop/USB/FPGA/ZYNQ_MINI_New/03_Sample_Projects/7010/ARM/arm_13_lwip/ethernetvitis/_ide/bitstream/ethernet.bit
+Fatal: program compiled against libxml 2 using libxml 20
+Fatal: program compiled against libxml 2 using libxml 20
+Fatal: program compiled against libxml 2 using libxml 20
+Fatal: program compiled against libxml 2 using libxml 20
+Fatal: program compiled against libxml 2 using libxml 20
+Fatal: program compiled against libxml 2 using libxml 20
+Fatal: program compiled against libxml 2 using libxml 20
+Fatal: program compiled against libxml 2 using libxml 20
+Fatal: program compiled against libxml 2 using libxml 20
+Fatal: program compiled against libxml 2 using libxml 20
+Fatal: program compiled against libxml 2 using libxml 20
+Fatal: program compiled against libxml 2 using libxml 20
+Fatal: program compiled against libxml 2 using libxml 20
+Fatal: program compiled against libxml 2 using libxml 20
+Fatal: program compiled against libxml 2 using libxml 20
+Fatal: program compiled against libxml 2 using libxml 20
+Fatal: program compiled against libxml 2 using libxml 20
+Fatal: program compiled against libxml 2 using libxml 20
+Fatal: program compiled against libxml 2 using libxml 20
+Fatal: program compiled against libxml 2 using libxml 20
+Fatal: program compiled against libxml 2 using libxml 20
+Fatal: program compiled against libxml 2 using libxml 20
+Fatal: program compiled against libxml 2 using libxml 20
+Fatal: program compiled against libxml 2 using libxml 20
+Fatal: program compiled against libxml 2 using libxml 20
+Fatal: program compiled against libxml 2 using libxml 20
+Fatal: program compiled against libxml 2 using libxml 20
+Fatal: program compiled against libxml 2 using libxml 20
+Fatal: program compiled against libxml 2 using libxml 20
+Fatal: program compiled against libxml 2 using libxml 20
+Fatal: program compiled against libxml 2 using libxml 20
+Fatal: program compiled against libxml 2 using libxml 20
+Fatal: program compiled against libxml 2 using libxml 20
+Fatal: program compiled against libxml 2 using libxml 20
+Fatal: program compiled against libxml 2 using libxml 20
+Fatal: program compiled against libxml 2 using libxml 20
+Fatal: program compiled against libxml 2 using libxml 20
+Fatal: program compiled against libxml 2 using libxml 20
+Fatal: program compiled against libxml 2 using libxml 20
+Fatal: program compiled against libxml 2 using libxml 20
+Fatal: program compiled against libxml 2 using libxml 20
+Fatal: program compiled against libxml 2 using libxml 20
+Fatal: program compiled against libxml 2 using libxml 20
+Fatal: program compiled against libxml 2 using libxml 20
+Fatal: program compiled against libxml 2 using libxml 20
+Fatal: program compiled against libxml 2 using libxml 20
+Fatal: program compiled against libxml 2 using libxml 20
+Fatal: program compiled against libxml 2 using libxml 20
+Fatal: program compiled against libxml 2 using libxml 20
+Fatal: program compiled against libxml 2 using libxml 20
+Fatal: program compiled against libxml 2 using libxml 20
+Fatal: program compiled against libxml 2 using libxml 20
+Fatal: program compiled against libxml 2 using libxml 20
+Fatal: program compiled against libxml 2 using libxml 20
+Fatal: program compiled against libxml 2 using libxml 20
+Fatal: program compiled against libxml 2 using libxml 20
+Fatal: program compiled against libxml 2 using libxml 20
+Fatal: program compiled against libxml 2 using libxml 20
+Fatal: program compiled against libxml 2 using libxml 20
+Fatal: program compiled against libxml 2 using libxml 20
+Fatal: program compiled against libxml 2 using libxml 20
+Fatal: program compiled against libxml 2 using libxml 20
+Fatal: program compiled against libxml 2 using libxml 20
+Fatal: program compiled against libxml 2 using libxml 20
+Fatal: program compiled against libxml 2 using libxml 20
+Fatal: program compiled against libxml 2 using libxml 20
+Fatal: program compiled against libxml 2 using libxml 20
+Fatal: program compiled against libxml 2 using libxml 20
+Fatal: program compiled against libxml 2 using libxml 20
+Fatal: program compiled against libxml 2 using libxml 20
+Fatal: program compiled against libxml 2 using libxml 20
+Fatal: program compiled against libxml 2 using libxml 20
+Fatal: program compiled against libxml 2 using libxml 20
+Fatal: program compiled against libxml 2 using libxml 20
+Running C:/Xilinx/Vitis/2023.1/bin/bootgen  -image C:/Users/a/Desktop/USB/FPGA/ZYNQ_MINI_New/03_Sample_Projects/7010/ARM/arm_13_lwip/ethernetvitis_system/Debug/sd_card_temp/boot.bif -w -o i BOOT.BIN
+
+14:53:25 Build Finished (took 4s.594ms)
+

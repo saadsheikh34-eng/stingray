@@ -1445,3 +1445,54 @@ con
 ----------------End of Script----------------
 
 13:11:50 INFO  : Launch script is exported to file 'C:\Users\Saad\Desktop\stingray\ethernet_2021_system\_ide\scripts\debugger_ethernet_2021-default.tcl'
+19:50:32 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\Saad\Desktop\stingray\temp_xsdb_launch_script.tcl
+19:53:33 ERROR : Timed out. 180 seconds have elapsed while waiting for XSCT server to launch.
+19:53:33 WARN  : xsct server communication channel is not established.
+19:53:36 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\Saad\Desktop\stingray\temp_xsdb_launch_script.tcl
+19:53:44 INFO  : XSCT server has started successfully.
+19:53:56 WARN  : channel "tcfchan#16" closed
+12:59:20 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\Saad\Desktop\stingray\temp_xsdb_launch_script.tcl
+12:59:24 INFO  : Registering command handlers for Vitis TCF services
+12:59:24 INFO  : Platform repository initialization has completed.
+12:59:25 INFO  : XSCT server has started successfully.
+12:59:32 INFO  : plnx-install-location is set to ''
+12:59:32 INFO  : Successfully done setting XSCT server connection channel  
+12:59:32 INFO  : Successfully done query RDI_DATADIR 
+12:59:32 INFO  : Successfully done setting workspace for the tool. 
+13:03:56 INFO  : Result from executing command 'getProjects': ethernet
+13:03:56 INFO  : Result from executing command 'getPlatforms': ethernet|C:/Users/Saad/Desktop/stingray/ethernet/export/ethernet/ethernet.xpfm
+13:03:57 INFO  : Checking for BSP changes to sync application flags for project 'ethernet_2021'...
+13:05:50 INFO  : Result from executing command 'getProjects': ethernet
+13:05:50 INFO  : Result from executing command 'getPlatforms': ethernet|C:/Users/Saad/Desktop/stingray/ethernet/export/ethernet/ethernet.xpfm
+13:05:50 INFO  : Checking for BSP changes to sync application flags for project 'ethernet_2021'...
+13:10:27 INFO  : Checking for BSP changes to sync application flags for project 'ethernet_2021'...
+13:11:10 INFO  : Hardware specification for platform project 'ethernet' is updated.
+13:11:33 INFO  : Result from executing command 'removePlatformRepo': 
+13:12:21 INFO  : Result from executing command 'getProjects': ethernet
+13:12:21 INFO  : Result from executing command 'getPlatforms': 
+13:12:21 INFO  : Checking for BSP changes to sync application flags for project 'ethernet_2021'...
+13:12:25 INFO  : Updating application flags with new BSP settings...
+13:12:26 INFO  : Successfully updated application flags for project ethernet_2021.
+13:12:33 INFO  : The hardware specification used by project 'ethernet_2021' is out of sync with the platform. Resource files extracted from the hardware specification will be updated.
+13:12:33 INFO  : The file 'C:\Users\Saad\Desktop\stingray\ethernet_2021\_ide\bitstream\ethernet.bit' stored in project is removed.
+13:12:33 INFO  : The updated bitstream files are copied from platform to folder 'C:\Users\Saad\Desktop\stingray\ethernet_2021\_ide\bitstream' in project 'ethernet_2021'.
+13:12:33 INFO  : The file 'C:\Users\Saad\Desktop\stingray\ethernet_2021\_ide\psinit\ps7_init.tcl' stored in project is removed.
+13:12:39 INFO  : The updated ps init files are copied from platform to folder 'C:\Users\Saad\Desktop\stingray\ethernet_2021\_ide\psinit' in project 'ethernet_2021'.
+13:50:18 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:50:21 INFO  : Jtag cable 'Digilent JTAG-SMT2 210251A08870' is selected.
+13:50:21 INFO  : 'jtag frequency' command is executed.
+13:50:21 INFO  : Context for 'APU' is selected.
+13:50:21 INFO  : System reset is completed.
+13:50:24 INFO  : 'after 3000' command is executed.
+13:50:24 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2 210251A08870" && level==0 && jtag_device_ctx=="jsn-JTAG-SMT2-210251A08870-13722093-0"}' command is executed.
+13:50:24 ERROR : couldn't open "C:/Users/Saad/Desktop/stingray/ethernet_2021/_ide/bitstream/ethernet.bit": no such file or directory
+13:50:24 ERROR : Exception occured while running Program Device.
+java.lang.RuntimeException: couldn't open "C:/Users/Saad/Desktop/stingray/ethernet_2021/_ide/bitstream/ethernet.bit": no such file or directory
+13:50:24 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+----------------End of Script----------------
+
+13:50:24 ERROR : couldn't open "C:/Users/Saad/Desktop/stingray/ethernet_2021/_ide/bitstream/ethernet.bit": no such file or directory

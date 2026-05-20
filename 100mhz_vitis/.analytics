@@ -1,0 +1,32 @@
+timestamp=[2026-04-19 18:02:02], mode=WORKBENCH_START, duration=0:00:05.553, duration_ms=5553, data={}
+timestamp=[2026-04-19 18:02:02], mode=WORKBENCH_UI_INIT, duration=0:00:00.461, duration_ms=461, data={editors_count=0, platform_editors_count=0, projects_count=0, platform_projects_count=0, active_platform_editor=false, projects=}
+timestamp=[2026-04-19 18:02:03], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.078, duration_ms=78, data={}
+timestamp=[2026-04-19 18:04:07], mode=WORKBENCH_START, duration=0:00:04.787, duration_ms=4787, data={}
+timestamp=[2026-04-19 18:04:08], mode=WORKBENCH_UI_INIT, duration=0:00:00.575, duration_ms=575, data={editors_count=0, platform_editors_count=0, projects_count=1, platform_projects_count=0, active_platform_editor=false, projects=RemoteSystemsTempFiles}
+timestamp=[2026-04-19 18:04:08], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.035, duration_ms=35, data={}
+timestamp=[2026-05-20 13:58:10], mode=APP_CREATION, duration=0:00:29.330, duration_ms=29330, data={name=100mhz, project_type=sdk, os=standalone, processor=ps7_cortexa9, runtime=cpp, platform=100mhz_ethernet, application_type=application}
+timestamp=[2026-05-20 13:59:43], mode=PLATFORM_GENERATION, duration=0:00:46.312, duration_ms=46312, data={name=100mhz_ethernet}
+timestamp=[2026-05-20 13:59:51], mode=BUILD, duration=0:00:07.770, duration_ms=7770, data={name=100mhz, configuration=Debug, clean_build=false}
+timestamp=[2026-05-20 14:41:35], mode=WORKBENCH_START, duration=0:00:13.106, duration_ms=13106, data={}
+timestamp=[2026-05-20 14:41:37], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.104, duration_ms=104, data={}
+timestamp=[2026-05-20 14:41:37], mode=WORKBENCH_UI_INIT, duration=0:00:01.271, duration_ms=1271, data={editors_count=4, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=100mhz,100mhz_ethernet,100mhz_system,RemoteSystemsTempFiles}
+timestamp=[2026-05-20 17:16:37], mode=BUILD, duration=0:00:09.205, duration_ms=9205, data={name=100mhz, configuration=Debug, clean_build=false}
+timestamp=[2026-05-20 17:24:39], mode=BUILD, duration=0:00:00.724, duration_ms=724, data={name=100mhz, configuration=Debug, clean_build=false}
+timestamp=[2026-05-20 17:35:08], mode=WORKBENCH_START, duration=0:00:12.670, duration_ms=12670, data={}
+timestamp=[2026-05-20 17:35:09], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.100, duration_ms=100, data={}
+timestamp=[2026-05-20 17:35:10], mode=WORKBENCH_UI_INIT, duration=0:00:01.041, duration_ms=1041, data={editors_count=10, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=100mhz,100mhz_ethernet,100mhz_system,RemoteSystemsTempFiles}
+timestamp=[2026-05-20 18:38:17], mode=WORKBENCH_START, duration=0:00:09.450, duration_ms=9450, data={}
+timestamp=[2026-05-20 18:38:18], mode=WORKBENCH_UI_INIT, duration=0:00:00.834, duration_ms=834, data={editors_count=10, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=100mhz,100mhz_ethernet,100mhz_system,RemoteSystemsTempFiles}
+timestamp=[2026-05-20 18:38:18], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.168, duration_ms=168, data={}
+timestamp=[2026-05-20 18:38:42], mode=BUILD, duration=0:00:01.955, duration_ms=1955, data={name=100mhz, configuration=Debug, clean_build=false}
+timestamp=[2026-05-20 18:38:58], mode=BUILD, duration=0:00:00.382, duration_ms=382, data={name=100mhz, configuration=Debug, clean_build=true}
+timestamp=[2026-05-20 18:39:09], mode=PLATFORM_GENERATION, duration=0:00:10.702, duration_ms=10702, data={name=100mhz_ethernet}
+timestamp=[2026-05-20 18:39:38], mode=PLATFORM_GENERATION, duration=0:00:29.336, duration_ms=29336, data={name=100mhz_ethernet}
+timestamp=[2026-05-20 18:39:47], mode=BUILD, duration=0:00:09.087, duration_ms=9087, data={name=100mhz, configuration=Debug, clean_build=false}
+timestamp=[2026-05-20 18:40:43], mode=BUILD, duration=0:00:02.298, duration_ms=2298, data={name=100mhz, configuration=Debug, clean_build=false}
+timestamp=[2026-05-20 21:17:09], mode=WORKBENCH_START, duration=0:00:09.098, duration_ms=9098, data={}
+timestamp=[2026-05-20 21:17:10], mode=WORKBENCH_UI_INIT, duration=0:00:00.982, duration_ms=982, data={editors_count=10, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=100mhz,100mhz_ethernet,100mhz_system,RemoteSystemsTempFiles}
+timestamp=[2026-05-20 21:17:10], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.169, duration_ms=169, data={}
+timestamp=[2026-05-20 21:17:21], mode=BUILD, duration=0:00:00.350, duration_ms=350, data={name=100mhz, configuration=Debug, clean_build=true}
+timestamp=[2026-05-20 21:17:31], mode=PLATFORM_GENERATION, duration=0:00:10.316, duration_ms=10316, data={name=100mhz_ethernet}
+timestamp=[2026-05-20 21:17:32], mode=BUILD, duration=0:00:00.191, duration_ms=191, data={name=100mhz_system, configuration=Debug, clean_build=true}

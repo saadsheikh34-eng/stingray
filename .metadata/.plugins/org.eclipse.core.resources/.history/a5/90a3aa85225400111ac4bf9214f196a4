@@ -1,0 +1,16 @@
+int main()
+{
+    init_platform();
+
+    lwip_init();
+
+    network_setup();
+
+    start_application();
+
+    while(1)
+    {
+        xemacif_input(netif);
+        transfer_data();
+    }
+}

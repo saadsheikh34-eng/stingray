@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="ddr_hdmi_100mhz" location="C:/Users/Saad/Desktop/check/ddr_hdmi_100mhz/ddr_hdmi_100mhz" platform="C:/Users/Saad/Desktop/check/ddr_hdmi_100mhz/100mhz_ethernet/export/100mhz_ethernet/100mhz_ethernet.xpfm" platformUID="xilinx:::0.0(custom)" systemProject="ddr_hdmi_100mhz_system" sysConfig="100mhz_ethernet" runtime="cpp" cpu="standalone_ps7_cortexa9_0" cpuInstance="ps7_cortexa9_0" os="standalone" mssSignature="9f751b0c7caaecfbf5c2ff77f6751ccb">
+  <configuration name="Debug" id="xilinx.gnu.armv7.exe.debug.1811966809">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.armv7.exe.release.1821174151" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="hello_world"/>
+</sdkproject:SdkProject>
