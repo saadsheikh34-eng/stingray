@@ -1,0 +1,16 @@
+18:02:03 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\usama\Desktop\18-4-2026\arm_fpga_04_hdmi_output\temp_xsdb_launch_script.tcl
+18:02:03 INFO  : Registering command handlers for Vitis TCF services
+18:02:03 INFO  : Platform repository initialization has completed.
+18:02:05 INFO  : XSCT server has started successfully.
+18:02:05 INFO  : plnx-install-location is set to ''
+18:02:06 INFO  : Successfully done setting XSCT server connection channel  
+18:02:06 INFO  : Successfully done query RDI_DATADIR 
+18:02:06 INFO  : Successfully done setting workspace for the tool. 
+18:04:08 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\usama\Desktop\18-4-2026\arm_fpga_04_hdmi_output\temp_xsdb_launch_script.tcl
+18:04:08 INFO  : Platform repository initialization has completed.
+18:04:08 INFO  : Registering command handlers for Vitis TCF services
+18:04:10 INFO  : XSCT server has started successfully.
+18:04:10 INFO  : Successfully done setting XSCT server connection channel  
+18:04:10 INFO  : plnx-install-location is set to ''
+18:04:10 INFO  : Successfully done query RDI_DATADIR 
+18:04:10 INFO  : Successfully done setting workspace for the tool. 

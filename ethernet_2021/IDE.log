@@ -1,0 +1,8 @@
+11:28:27 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\Saad\Desktop\stingray\ethernet_2021\temp_xsdb_launch_script.tcl
+11:28:27 INFO  : Registering command handlers for Vitis TCF services
+11:28:27 INFO  : Platform repository initialization has completed.
+11:28:29 INFO  : XSCT server has started successfully.
+11:28:29 INFO  : plnx-install-location is set to ''
+11:28:29 INFO  : Successfully done setting XSCT server connection channel  
+11:28:29 INFO  : Successfully done query RDI_DATADIR 
+11:28:29 INFO  : Successfully done setting workspace for the tool. 

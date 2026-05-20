@@ -1,0 +1,20 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/usama/Desktop/18-4-2026/arm_fpga_04_hdmi_output/arm_fpga_04_hdmi_output.ip_user_files/bd/design_1/ip/design_1_rst_ps7_0_142M_0/sim/design_1_rst_ps7_0_142M_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'design_1_rst_ps7_0_142M_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/usama/Desktop/18-4-2026/arm_fpga_04_hdmi_output/arm_fpga_04_hdmi_output.ip_user_files/bd/design_1/ip/design_1_rst_ps7_0_100M_0/sim/design_1_rst_ps7_0_100M_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'design_1_rst_ps7_0_100M_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/usama/Desktop/18-4-2026/arm_fpga_04_hdmi_output/arm_fpga_04_hdmi_output.gen/sources_1/bd/design_1/ipshared/9097/src/axi_dynclk_S00_AXI.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'axi_dynclk_S00_AXI'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/usama/Desktop/18-4-2026/arm_fpga_04_hdmi_output/arm_fpga_04_hdmi_output.gen/sources_1/bd/design_1/ipshared/9097/src/axi_dynclk.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'axi_dynclk'
+WARNING: [VRFC 10-3093] actual for formal port 'rst' is neither a static name nor a globally static expression [C:/Users/usama/Desktop/18-4-2026/arm_fpga_04_hdmi_output/arm_fpga_04_hdmi_output.gen/sources_1/bd/design_1/ipshared/9097/src/axi_dynclk.vhd:225]
+WARNING: [VRFC 10-3093] actual for formal port 's1_clkout0' is neither a static name nor a globally static expression [C:/Users/usama/Desktop/18-4-2026/arm_fpga_04_hdmi_output/arm_fpga_04_hdmi_output.gen/sources_1/bd/design_1/ipshared/9097/src/axi_dynclk.vhd:227]
+WARNING: [VRFC 10-3093] actual for formal port 's1_clkfbout' is neither a static name nor a globally static expression [C:/Users/usama/Desktop/18-4-2026/arm_fpga_04_hdmi_output/arm_fpga_04_hdmi_output.gen/sources_1/bd/design_1/ipshared/9097/src/axi_dynclk.vhd:228]
+WARNING: [VRFC 10-3093] actual for formal port 's1_lock' is neither a static name nor a globally static expression [C:/Users/usama/Desktop/18-4-2026/arm_fpga_04_hdmi_output/arm_fpga_04_hdmi_output.gen/sources_1/bd/design_1/ipshared/9097/src/axi_dynclk.vhd:230]
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/usama/Desktop/18-4-2026/arm_fpga_04_hdmi_output/arm_fpga_04_hdmi_output.ip_user_files/bd/design_1/ip/design_1_axi_dynclk_0_0/sim/design_1_axi_dynclk_0_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'design_1_axi_dynclk_0_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/usama/Desktop/18-4-2026/arm_fpga_04_hdmi_output/arm_fpga_04_hdmi_output.gen/sources_1/bd/design_1/ipshared/ca91/src/ClockGen.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ClockGen'
+ERROR: [VRFC 10-2987] 'resetbridge' is not compiled in library 'xil_defaultlib' [C:/Users/usama/Desktop/18-4-2026/arm_fpga_04_hdmi_output/arm_fpga_04_hdmi_output.gen/sources_1/bd/design_1/ipshared/ca91/src/ClockGen.vhd:56]
+ERROR: [VRFC 10-2987] 'syncasync' is not compiled in library 'xil_defaultlib' [C:/Users/usama/Desktop/18-4-2026/arm_fpga_04_hdmi_output/arm_fpga_04_hdmi_output.gen/sources_1/bd/design_1/ipshared/ca91/src/ClockGen.vhd:64]
+ERROR: [VRFC 10-3782] unit 'behavioral' ignored due to previous errors [C:/Users/usama/Desktop/18-4-2026/arm_fpga_04_hdmi_output/arm_fpga_04_hdmi_output.gen/sources_1/bd/design_1/ipshared/ca91/src/ClockGen.vhd:46]
+INFO: [VRFC 10-3070] VHDL file 'C:/Users/usama/Desktop/18-4-2026/arm_fpga_04_hdmi_output/arm_fpga_04_hdmi_output.gen/sources_1/bd/design_1/ipshared/ca91/src/ClockGen.vhd' ignored due to errors

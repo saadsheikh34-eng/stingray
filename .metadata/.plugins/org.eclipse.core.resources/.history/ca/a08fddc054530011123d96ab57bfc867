@@ -1,0 +1,113 @@
+#include <stdio.h>
+#include <string.h>
+
+#include "lwip/err.h"
+#include "lwip/tcp.h"
+
+#if defined (__arm__) || defined (__aarch64__)
+#include "xil_printf.h"
+#endif
+
+#include "xparameters.h"
+
+// =========================
+#define SERVER_PORT 5000
+#define WIDTH  320
+#define HEIGHT 240
+#define FRAME_SIZE (WIDTH * HEIGHT * 3)
+
+#define DDR_BASE_ADDR XPAR_DDR_MEM_BASEADDR
+// OR manually:
+// #define DDR_BASE_ADDR 0x10000000
+// =========================
+
+static unsigned char frame_buffer[FRAME_SIZE];
+
+static int state = 0;
+static int frame_size = 0;
+static int bytes_received = 0;
+
+//-------------------------------------
+int transfer_data()
+{
+    return 0;
+}
+
+//-------------------------------------
+void print_app_header()
+{
+    xil_printf("Ethernet to HDMI\r\n");
+}
+
+//-------------------------------------
+err_t recv_callback(void *arg,
+                    struct tcp_pcb *tpcb,
+                    struct pbuf *p,
+                    err_t err)
+{
+    if (!p)
+    {
+        tcp_close(tpcb);
+        tcp_recv(tpcb, NULL);
+        return ERR_OK;
+    }
+
+    tcp_recved(tpcb, p->tot_len);
+
+    unsigned char *data = (unsigned char *)p->payload;
+    int len = p->len;
+    int index = 0;
+
+    static unsigned char size_buf[4];
+    static int size_bytes = 0;
+
+    while (index < len)
+    {
+        // ---------- SIZE ----------
+        if (state == 0)
+        {
+            while (size_bytes < 4 && index < len)
+            {
+                size_buf[size_bytes++] = data[index++];
+            }
+
+            if (size_bytes == 4)
+            {
+                frame_size =
+                    (size_buf[0] << 24) |
+                    (size_buf[1] << 16) |
+                    (size_buf[2] << 8)  |
+                    (size_buf[3]);
+
+                xil_printf("Frame size: %d\r\n", frame_size);
+
+                if (frame_size != FRAME_SIZE)
+                {
+                    xil_printf("Invalid size\r\n");
+                    state = 0;
+                    size_bytes = 0;
+                    break;
+                }
+
+                bytes_received = 0;
+                state = 1;
+                size_bytes = 0;
+            }
+        }
+        // ---------- DATA ----------
+        else if (state == 1)
+        {
+            int remaining = frame_size - bytes_received;
+            int copy_len = (len - index < remaining) ? (len - index) : remaining;
+
+            memcpy(frame_buffer + bytes_received,
+                   data + index,
+                   copy_len);
+
+            bytes_received += copy_len;
+            index += copy_len;
+
+            if (bytes_received >= frame_size)
+            {
+                xil_printf("Frame received\r\n");
+

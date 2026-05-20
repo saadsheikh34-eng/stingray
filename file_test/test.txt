@@ -1,0 +1,2 @@
+Hello FPGA Echo Server!
+This is a file transfer test.

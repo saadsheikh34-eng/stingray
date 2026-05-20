@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="ethernet_2021" location="C:/Users/Saad/Desktop/stingray/ethernet_2021" platform="C:/Users/Saad/Desktop/stingray/ethernet/export/ethernet/ethernet.xpfm" platformUID="xilinx:::0.0(custom)" systemProject="ethernet_2021_system" sysConfig="ethernet" runtime="cpp" cpu="standalone_ps7_cortexa9_0" cpuInstance="ps7_cortexa9_0" os="standalone" mssSignature="d6f40f9f5320f1331e9009afcedb8a90">
+  <configuration name="Debug" id="xilinx.gnu.armv7.exe.debug.1208441820">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.armv7.exe.release.1644624647" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="lwip_echo_server" hasBspSettings="true"/>
+</sdkproject:SdkProject>

@@ -1,0 +1,171 @@
+#include <stdio.h>
+#include <string.h>
+
+#include "lwip/err.h"
+#include "lwip/tcp.h"
+
+#if defined (__arm__) || defined (__aarch64__)
+#include "xil_printf.h"
+#endif
+
+#include "xparameters.h"
+
+// =====================================
+// CONFIG
+// =====================================
+#define SERVER_PORT 7
+#define FRAME_BUF_SIZE (320 * 240 * 3)
+
+// ✅ USE YOUR HDMI FRAMEBUFFER ADDRESS
+#define DDR_BASE_ADDR XPAR_DDR_MEM_BASEADDR
+// OR manually:
+// #define DDR_BASE_ADDR 0x10000000
+
+//-------------------------------------
+
+static char frame_buffer[FRAME_BUF_SIZE];
+
+static int bytes_received = 0;
+static int frame_size = 0;
+static int state = 0;
+
+//-------------------------------------
+int transfer_data() {
+    return 0;
+}
+
+//-------------------------------------
+void print_app_header()
+{
+    xil_printf("\n\r\n\r----- Ethernet to HDMI ------\n\r");
+    xil_printf("Listening on port %d\n\r", SERVER_PORT);
+}
+
+//-------------------------------------
+err_t recv_callback(void *arg, struct tcp_pcb *tpcb,
+                    struct pbuf *p, err_t err)
+{
+    if (!p) {
+        xil_printf("Connection closed\r\n");
+        tcp_close(tpcb);
+        tcp_recv(tpcb, NULL);
+        return ERR_OK;
+    }
+
+    tcp_recved(tpcb, p->tot_len);
+
+    static unsigned char size_buf[4];
+    static int size_bytes = 0;
+
+    char *data = (char *)p->payload;
+    int len = p->len;
+    int index = 0;
+
+    while (index < len)
+    {
+        //---------------------------------
+        // STEP 1: RECEIVE FRAME SIZE
+        //---------------------------------
+        if (state == 0)
+        {
+            while (size_bytes < 4 && index < len) {
+                size_buf[size_bytes++] = data[index++];
+            }
+
+            if (size_bytes == 4) {
+                frame_size = ((unsigned int)size_buf[0] << 24) |
+                             ((unsigned int)size_buf[1] << 16) |
+                             ((unsigned int)size_buf[2] << 8)  |
+                             ((unsigned int)size_buf[3]);
+
+                xil_printf("Frame size: %d\r\n", frame_size);
+
+                if (frame_size <= 0 || frame_size > FRAME_BUF_SIZE) {
+                    xil_printf("Invalid size! Resetting...\r\n");
+                    state = 0;
+                    size_bytes = 0;
+                    break;
+                }
+
+                bytes_received = 0;
+                state = 1;
+                size_bytes = 0;
+            }
+        }
+
+        //---------------------------------
+        // STEP 2: RECEIVE FRAME DATA
+        //---------------------------------
+        else if (state == 1)
+        {
+            int remaining = frame_size - bytes_received;
+            int copy_len = (len - index < remaining) ? (len - index) : remaining;
+
+            memcpy(frame_buffer + bytes_received, data + index, copy_len);
+
+            bytes_received += copy_len;
+            index += copy_len;
+
+            //---------------------------------
+            // FRAME COMPLETE
+            //---------------------------------
+            if (bytes_received >= frame_size)
+            {
+                xil_printf("Frame complete: %d bytes\r\n", frame_size);
+
+                //---------------------------------
+                // ✅ WRITE DIRECTLY TO DDR (HDMI reads this)
+                //---------------------------------
+                memcpy((void*)DDR_BASE_ADDR, frame_buffer, frame_size);
+
+                //---------------------------------
+                state = 0;
+            }
+        }
+    }
+
+    pbuf_free(p);
+    return ERR_OK;
+}
+
+//-------------------------------------
+err_t accept_callback(void *arg, struct tcp_pcb *newpcb, err_t err)
+{
+    xil_printf("✅ Client connected\r\n");
+
+    tcp_recv(newpcb, recv_callback);
+
+    return ERR_OK;
+}
+
+//-------------------------------------
+int start_application()
+{
+    struct tcp_pcb *pcb;
+    err_t err;
+
+    pcb = tcp_new_ip_type(IPADDR_TYPE_ANY);
+    if (!pcb) {
+        xil_printf("Error creating PCB\n\r");
+        return -1;
+    }
+
+    err = tcp_bind(pcb, IP_ANY_TYPE, SERVER_PORT);
+    if (err != ERR_OK) {
+        xil_printf("Cannot bind port %d\n\r", SERVER_PORT);
+        return -2;
+    }
+
+    pcb = tcp_listen(pcb);
+    if (!pcb) {
+        xil_printf("Listen failed\n\r");
+        return -3;
+    }
+
+    tcp_accept(pcb, accept_callback);
+
+    xil_printf("✅ Server started on port %d\r\n", SERVER_PORT);
+
+    return 0;
+}
+``

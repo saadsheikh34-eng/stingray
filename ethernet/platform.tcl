@@ -20,3 +20,31 @@ domain active {zynq_fsbl}
 domain active {standalone_ps7_cortexa9_0}
 platform generate -quick
 platform generate
+platform generate
+platform active {ethernet}
+platform config -updatehw {C:/Users/Saad/Downloads/ImageProcessingOnZynq-main/ImageProcessingOnZynq-main/grayscale_project/grayscaleandila.xsa}
+platform generate -domains 
+bsp reload
+bsp write
+platform clean
+platform generate
+platform config -updatehw {C:/Users/Saad/Downloads/ImageProcessingOnZynq-main/ImageProcessingOnZynq-main/grayscale_project/original.xsa}
+platform generate -domains 
+platform config -updatehw {C:/Users/Saad/Downloads/ImageProcessingOnZynq-main/ImageProcessingOnZynq-main/grayscale_project/original.xsa}
+platform generate -domains 
+platform config -updatehw {C:/Users/Saad/Desktop/stingray/ethernet_2021/original.xsa}
+platform generate -domains 
+platform config -updatehw {C:/Users/Saad/Desktop/stingray/ethernet_2021/_ide/bitstream/original.xsa}
+platform generate -domains 
+platform clean
+platform generate
+platform active {ethernet}
+platform config -updatehw {C:/Users/Saad/Desktop/stingray/arm_13_lwip/ethernet.xsa}
+platform clean
+platform generate
+platform clean
+platform generate
+platform clean
+platform generate
+platform clean
+platform generate

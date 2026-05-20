@@ -1,0 +1,20 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Tue May 19 13:18:30 2026
+# Process ID: 20304
+# Current directory: C:/Users/Saad/Downloads/ImageProcessingOnZynq-main/ImageProcessingOnZynq-main/arm_fpga_04_hdmi_output
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent24528 C:\Users\Saad\Downloads\ImageProcessingOnZynq-main\ImageProcessingOnZynq-main\arm_fpga_04_hdmi_output\arm_fpga_04_hdmi_output.xpr
+# Log file: C:/Users/Saad/Downloads/ImageProcessingOnZynq-main/ImageProcessingOnZynq-main/arm_fpga_04_hdmi_output/vivado.log
+# Journal file: C:/Users/Saad/Downloads/ImageProcessingOnZynq-main/ImageProcessingOnZynq-main/arm_fpga_04_hdmi_output\vivado.jou
+# Running On: DESKTOP-N4P9TIA, OS: Windows, CPU Frequency: 2496 MHz, CPU Physical cores: 10, Host memory: 16890 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Saad/Downloads/ImageProcessingOnZynq-main/ImageProcessingOnZynq-main/arm_fpga_04_hdmi_output/arm_fpga_04_hdmi_output.xpr
+update_compile_order -fileset sources_1
+open_bd_design {C:/Users/Saad/Downloads/ImageProcessingOnZynq-main/ImageProcessingOnZynq-main/arm_fpga_04_hdmi_output/arm_fpga_04_hdmi_output.srcs/sources_1/bd/design_1/design_1.bd}
+startgroup
+set_property -dict [list CONFIG.PCW_ENET0_GRP_MDIO_ENABLE {1} CONFIG.PCW_ENET0_GRP_MDIO_IO {MIO 52 .. 53}] [get_bd_cells processing_system7_0]
+endgroup
+validate_bd_design

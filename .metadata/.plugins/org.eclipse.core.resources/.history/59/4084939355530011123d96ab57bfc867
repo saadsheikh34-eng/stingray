@@ -1,0 +1,59 @@
+#include <stdio.h>
+#include <string.h>
+
+#include "lwip/err.h"
+#include "lwip/tcp.h"
+#include "xil_printf.h"
+#include "xparameters.h"
+
+// ================= CONFIG =================
+#define PORT 5000
+#define WIDTH  320
+#define HEIGHT 240
+#define FRAME_SIZE (WIDTH * HEIGHT * 3)
+
+// ✅ Match your HDMI framebuffer
+#define DDR_BASE_ADDR XPAR_DDR_MEM_BASEADDR
+// If needed use:
+// #define DDR_BASE_ADDR 0x10000000
+// ==========================================
+
+// Frame buffer
+static unsigned char frame_buffer[FRAME_SIZE];
+
+// State variables
+static int state = 0;
+static int size_bytes = 0;
+static int frame_size = 0;
+static int bytes_received = 0;
+static unsigned char size_buf[4];
+
+//=========================================
+err_t recv_callback(void *arg,
+                    struct tcp_pcb *tpcb,
+                    struct pbuf *p,
+                    err_t err)
+{
+    if (p == NULL)
+    {
+        tcp_close(tpcb);
+        return ERR_OK;
+    }
+
+    tcp_recved(tpcb, p->len);
+
+    unsigned char *data = (unsigned char *)p->payload;
+    int len = p->len;
+    int i = 0;
+
+    while (i < len)
+    {
+        // ===== RECEIVE SIZE =====
+        if (state == 0)
+        {
+            size_buf[size_bytes++] = data[i++];
+
+            if (size_bytes == 4)
+            {
+                frame_size =
+                    (size_buf[0] << 24) |
