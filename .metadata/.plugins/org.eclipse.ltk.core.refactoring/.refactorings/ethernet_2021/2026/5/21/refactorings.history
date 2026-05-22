@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;ethernet_2021/Debug/src/display_demo&apos; to &apos;display_demo.o&apos;" description="Rename resource &apos;display_demo&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Debug/src/display_demo" name="display_demo.o" stamp="1779437218582" updateReferences="true"/>
+</session>

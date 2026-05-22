@@ -54,3 +54,42 @@ platform generate -domains
 platform config -updatehw {C:/Users/Saad/Desktop/stingray/arm_fpga_04_hdmi_output/100mhz_ethernet.xsa}
 platform clean
 platform generate
+platform active {ethernet}
+platform config -updatehw {C:/Users/Saad/Desktop/check/ddr_hdmi_100mhz/100mhz_ethernet.xsa}
+platform clean
+platform generate
+platform active {ethernet}
+platform config -updatehw {C:/Users/Saad/Desktop/check/ddr_hdmi_100mhz/100mhz_ethernet.xsa}
+platform clean
+platform generate
+platform config -updatehw {C:/Users/Saad/Desktop/check/ddr_hdmi_100mhz/100mhz_ethernet.xsa}
+platform clean
+platform generate
+platform config -updatehw {C:/Users/Saad/Desktop/stingray/arm_13_lwip/ethernet.xsa}
+platform generate -domains 
+platform clean
+platform generate
+platform active {ethernet}
+bsp reload
+bsp setlib -name xilffs -ver 4.6
+bsp write
+bsp reload
+catch {bsp regenerate}
+platform generate -domains standalone_ps7_cortexa9_0 
+platform clean
+platform generate
+platform clean
+platform generate
+platform clean
+platform generate
+platform generate -domains standalone_ps7_cortexa9_0,zynq_fsbl 
+platform clean
+platform generate
+platform clean
+platform generate
+platform clean
+platform generate
+platform active {ethernet}
+platform config -updatehw {C:/Users/Saad/Desktop/check/ddr_hdmi_100mhz/100mhz_ethernet.xsa}
+platform clean
+platform generate

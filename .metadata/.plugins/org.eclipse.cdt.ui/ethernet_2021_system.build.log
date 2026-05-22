@@ -1,10 +1,8 @@
-13:12:39 **** Build of configuration Debug for project ethernet_2021_system ****
-make all 
-Generating bif file for the system project
-generate_system_bif.bat 49967 C:/Users/Saad/Desktop/stingray/ethernet/export/ethernet/ethernet.xpfm standalone_ps7_cortexa9_0 C:/Users/Saad/Desktop/stingray/ethernet_2021_system/Debug/system.bif
-sdcard_gen --xpfm C:/Users/Saad/Desktop/stingray/ethernet/export/ethernet/ethernet.xpfm --sys_config ethernet --bif C:/Users/Saad/Desktop/stingray/ethernet_2021_system/Debug/system.bif --bitstream C:/Users/Saad/Desktop/stingray/ethernet_2021/_ide/bitstream/100mhz_ethernet.bit --elf C:/Users/Saad/Desktop/stingray/ethernet_2021/Debug/ethernet_2021.elf,ps7_cortexa9_0
-creating BOOT.BIN using C:/Users/Saad/Desktop/stingray/ethernet_2021/_ide/bitstream/100mhz_ethernet.bit
-Running D:/Vitis/2021.2/bin/bootgen  -image C:/Users/Saad/Desktop/stingray/ethernet_2021_system/Debug/sd_card_temp/boot.bif -w -o i BOOT.BIN
+13:19:52 **** Clean-only build of configuration Debug for project ethernet_2021_system ****
+make clean 
+rm -rf ./_sds
+rm -rf package
+rm -f system.bif
 
-13:12:48 Build Finished (took 8s.490ms)
+13:19:52 Build Finished (took 170ms)
 
